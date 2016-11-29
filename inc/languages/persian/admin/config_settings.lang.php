@@ -13,8 +13,8 @@ $l['add_new_setting_desc'] = "این بخش به شما اجازه‌ی افزو
 $l['modify_existing_settings'] = "اصلاح تنظیمات";
 $l['modify_existing_settings_desc'] = "این بخش به شما اجازه‌ی اصلاح تنظیمات موجود در انجمنتان را می‌دهد.";
 $l['add_new_setting_group'] = "افزودن گروه تنظیم جدید‌";
-$l['edit_setting_group'] = "ویرایش گروه تنظیمات";
 $l['add_new_setting_group_desc'] = "این بخش این اجازه را به شما می‌دهد که یک گروه تنظیمات به تنظیمات دسته‌بندی شده اضافه کنید.";
+$l['edit_setting_group'] = "ویرایش گروه تنظیمات";
 $l['edit_setting_group_desc'] = "این بخش به شما اجازه‌ی ویرایش گروه تنظیمات موجود را می‌دهد.";
 
 $l['title'] = "عنوان";
@@ -84,7 +84,6 @@ $l['error_cannot_edit_php'] = "این نوع خاصی از تنظیمات است
 $l['error_ajax_search'] = "یک مشکل برای جستجو در تنظیمات وجود دارد: ";
 $l['error_ajax_unknown'] = "یک خطای ناشناخته‌ی هنگام جستجو در تنظیمات رخ داده است";
 $l['error_chmod_settings_file'] = "فایل تنظیمات در مسیر ./inc/settings.php قابل نوشتن نیست. لطفاً دسترسی این فایل را بر روی 777 قرار دهید. </br> برای اطلاعات بیش‌تر در مورد تغییر دسترسی به <a href=\"http://docs.mybb.com/HowTo_Chmod.html\" target=\"_blank\">MyBB Docs</a>مراجعه کنید."; //\\\\ W W W . M Y B B I R A N .C O M
-$l['error_hidden_captcha_conflict'] = "تصویر امنیتی پنهان، نمی‌تواند مقدار \"{1}\" را داشته باشد چرا که با یک فیلد دیگر تداخل خواهد کرد.";
 
 $l['success_setting_added'] = "تنظیمات با موفقیت ساخته شد.";
 $l['success_setting_updated'] = "تنظیمات با موفقیت به‌روز‌رسانی شد.";
@@ -103,5 +102,4 @@ $l['success_duplicate_settings_deleted'] = "همه‌ی گروه تنظیمات 
 $l['searching'] = 'در حال جستجو...';
 $l['search_error'] = 'خطایی در دریافت نتایج جستجو وجود دارد:';
 $l['search_done'] = 'انجام شد';
-
 
