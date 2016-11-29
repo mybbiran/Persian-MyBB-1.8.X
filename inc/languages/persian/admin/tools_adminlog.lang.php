@@ -1,9 +1,10 @@
 <?php
 /**
- * MyBB 1.8.8 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2014 MyBBIran Group, All Rights Reserved
  *
  */
+
 
 $l['admin_logs'] = "کار‌های ثبت شده‌ی مدیر";
 $l['admin_logs_desc'] = "در این بخش می‌توانید کار‌هایی که مدیران در کنترل پنل مدیریت انجام داده‌اند را مشاهده، هرس و در آن‌ها جستجو کنید.";
@@ -100,16 +101,16 @@ $l['admin_log_config_profile_fields_add'] = "افزودن فیلد مشخصات 
 $l['admin_log_config_profile_fields_edit'] = "ویرایش مشخصات اختیاری #{1} ({2})";
 $l['admin_log_config_profile_fields_delete'] = "حذف مشخصات اختیاری #{1} ({2})";
 
-$l['admin_log_config_report_reasons_add'] = "گزارش به دلیل اضافه شده است #{1} ({2})";
-$l['admin_log_config_report_reasons_edit'] = "گزارش به دلیل ویرایش شده است #{1} ({2})";
-$l['admin_log_config_report_reasons_delete'] = "گزارش به دلیل حذف شده است #{1} ({2})";
-
 $l['admin_log_config_questions_add'] = "افزودن پرسش امنیتی #{1} ({2})";
 $l['admin_log_config_questions_edit'] = "ویرایش پرسش امنیتی #{1} ({2})";
 $l['admin_log_config_questions_delete'] = "حذف پرسش امنیتی #{1} ({2})";
 $l['admin_log_config_questions_enable'] = "فعال‌سازی پرسش امنیتی #{1} ({2})";
 $l['admin_log_config_questions_disable'] = "غیرفعال‌سازی پرسش امنیتی #{1} ({2})";
+$l['admin_log_config_report_reasons_add'] = "گزارش به دلیل اضافه شده است #{1} ({2})";
+$l['admin_log_config_report_reasons_edit'] = "گزارش به دلیل ویرایش شده است #{1} ({2})";
+$l['admin_log_config_report_reasons_delete'] = "گزارش به دلیل حذف شده است #{1} ({2})";
 
+$l['admin_log_config_settings_delete_duplicates'] = "حذف هرگونه تنظیمی‌که دوبار تکرار شده است.";
 $l['admin_log_config_settings_addgroup'] = "افزودن تنظیمات و مشخصات گروه #{1} ({2})";
 $l['admin_log_config_settings_editgroup'] = "ویرایش تنظیمات و مشخصات گروه #{1} ({2})";
 $l['admin_log_config_settings_deletegroup'] = "حذف تنظیمات گروه #{1} ({2})";
@@ -118,7 +119,7 @@ $l['admin_log_config_settings_edit'] = "ویرایش مشخصات تنظیمات
 $l['admin_log_config_settings_delete'] = "حذف تنظیمات #{1} ({2})";
 $l['admin_log_config_settings_manage'] = "به‌روز‌رسانی تنظیمات و چیدمان نمایش گروه‌ها";
 $l['admin_log_config_settings_change'] = "تغییر تنظیمات انجمن";
-$l['admin_log_config_settings_delete_duplicates'] = "حذف هرگونه تنظیمی‌که دوبار تکرار شده است.";
+
 
 $l['admin_log_config_smilies_add'] = "افزودن شکلک #{1} ({2})";
 $l['admin_log_config_smilies_edit'] = "ویرایش شکلک #{1} ({2})";

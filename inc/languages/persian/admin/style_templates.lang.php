@@ -1,6 +1,6 @@
 <?php
 /**
- * MyBB 1.8.8 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2014 MyBBIran Group, All Rights Reserved
  *
  */
@@ -79,7 +79,7 @@ $l['group_index'] = "Index Page";
 $l['group_error'] = "Error Message";
 $l['group_memberlist'] = "Member List";
 $l['group_multipage'] = "Multipage Pagination";
-$l['group_private'] = "Private Message";
+$l['group_private'] = "Private Messaging";
 $l['group_portal'] = "Portal";
 $l['group_postbit'] = "Post Bit";
 $l['group_posticons'] = "Post Icon";
@@ -108,7 +108,7 @@ $l['group_polls'] = "Poll";
 $l['group_post'] = "Post";
 $l['group_printthread'] = "Print Thread";
 $l['group_report'] = "Report";
-$l['group_smilieinsert'] = "Smile Inserter";
+$l['group_smilieinsert'] = "Smilie Inserter";
 $l['group_stats'] = "Statistics";
 $l['group_xmlhttp'] = "XMLHTTP";
 $l['group_footer'] = "Footer";

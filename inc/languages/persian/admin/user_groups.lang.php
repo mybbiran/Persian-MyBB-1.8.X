@@ -1,6 +1,6 @@
 <?php
 /**
- * MyBB 1.8.8 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2014 MyBBIran Group, All Rights Reserved
  *
  */
@@ -26,7 +26,7 @@ $l['no_groups'] = "در حال حاضر هیچ گروه کاربری‌ای بر
 $l['join_requests'] = "مدیریت درخواست‌های پیوستن به گروه";
 $l['update_groups_order'] = "به‌روز‌رسانی چیدمان گروه‌ها";
 $l['reset'] = "بازنشاندن";
-$l['number_of_users'] = "تعداد کاربران";
+$l['number_of_users'] = "# از کاربران";
 $l['order'] = "چیدمان";
 $l['group'] = "گروه";
 $l['custom_user_group'] = "گروه کاربری اضافی";

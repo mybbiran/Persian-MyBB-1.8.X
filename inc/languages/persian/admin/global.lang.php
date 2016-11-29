@@ -1,6 +1,6 @@
 <?php
 /**
- * MyBB 1.8.8 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2014 MyBBIran Group, All Rights Reserved
  *
  */
@@ -82,6 +82,7 @@ $l['version'] = "نسخه";
 $l['languagevar'] = "زبان";
 $l['use_default'] = "استفاده از پیش‌فرض";
 $l['file'] = "فایل";
+$l['go'] = "برو";
 $l['clear'] = "پاک کردن";
 $l['unknown'] = "ناشناخته";
 $l['year'] = "سال";
@@ -128,7 +129,6 @@ $l['next'] = "بعدی";
 $l['delete'] = "حذف";
 $l['reset'] = "بازنشاندن";
 $l['and'] = "و";
-$l['go'] = "برو";
 $l['on'] = "روشن";
 $l['off'] = "خاموش";
 $l['alt_enabled'] = "فعال شد";
@@ -207,10 +207,10 @@ $l['timezone_gmt_600'] = "(GMT +6:00) Almaty, Dhakra, Yekaterinburg";
 $l['timezone_gmt_650'] = "(GMT +6:30) Yangon";
 $l['timezone_gmt_700'] = "(GMT +7:00) Bangkok, Hanoi, Jakarta";
 $l['timezone_gmt_800'] = "(GMT +8:00) Beijing, Hong Kong, Perth, Singapore, Taipei, Manila";
-$l['timezone_gmt_900'] = "(GMT +9:00) Osaka, Sapporo, Seoul, Tokyo, Irkutsk";
-$l['timezone_gmt_950'] = "(GMT +9:30) Adelaide, Darwin";
 $l['timezone_gmt_850'] = "(GMT +8:30) Pyongyang";
 $l['timezone_gmt_875'] = "(GMT +8:45) Eucla";
+$l['timezone_gmt_900'] = "(GMT +9:00) Osaka, Sapporo, Seoul, Tokyo, Irkutsk";
+$l['timezone_gmt_950'] = "(GMT +9:30) Adelaide, Darwin";
 $l['timezone_gmt_1000'] = "(GMT +10:00) Melbourne, Papua New Guinea, Sydney, Yakutsk";
 $l['timezone_gmt_1050'] = "(GMT +10:30) Lord Howe Island";
 $l['timezone_gmt_1100'] = "(GMT +11:00) Magadan, New Caledonia, Solomon Islands, Vladivostok";
@@ -356,7 +356,7 @@ $l['locked_out_message'] = "{1},
 با سپاس،
 مدیریت {2}";
 
-$l['comma'] = "، ";
+$l['comma'] = ", ";
 
 $l['search_for_a_user'] = "جستجوی کاربر";
 
