@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tasks version="1400" exported="">
+	<task>
+		<title>پاک‌سازی ساعتی</title>
+		<description><![CDATA[کش‌های قدیمی مربوط به جستجو، تصاویر امنیتی، و پرسش‌های امنیتی را پاک‌سازی می‌کند و همچنین تغییر مسیرها را نیز منقضی می‌کند.]]></description>
+		<file>hourlycleanup</file>
+		<minute>0</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>پاک‌سازی روزانه</title>
+		<description><![CDATA[جلسه‌های قدیمی و اطلاعات مربوط به خوانده شدن موضوعات توسط کاربر را پاک‌سازی می‌کند.]]></description>
+		<file>dailycleanup</file>
+		<minute>0</minute>
+		<hour>0</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>پاک‌سازی نیم‌ساعته‌ی کاربران</title>
+		<description><![CDATA[به صورت خودکار هر نیم ساعت یک بار، به محرومیت‌ها، اخطارها و تعلیق ارسال مطلب و اعمال مدیریتی‌ای که زمان آن‌ها به اتمام رسیده باشد، پایان می‌دهد.]]></description>
+		<file>usercleanup</file>
+		<minute>30,59</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>پشتیبان‌گیری هفتگی</title>
+		<description><![CDATA[به صورت خودکار هر هرفته از جدول‌های MyBB در بانک اطلاعاتی پشتیبان‌گیری می‌کند و فایل پشتیبان را در مسیر مربوطه ذخیره می‌کند.]]></description>
+		<file>backupdb</file>
+		<minute>0</minute>
+		<hour>0</hour>
+		<day>*</day>
+		<weekday>0</weekday>
+		<month>*</month>
+		<enabled>0</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>سیستم ترفیع گروه کاربر</title>
+		<description><![CDATA[هر 20 دقیقه ترفیعات گروه مربوط به کاربران را بررسی و اجرا می‌کند.]]></description>
+		<file>promotions</file>
+		<minute>5,25,45</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>تعداد بازدیدهای موضوع</title>
+		<description><![CDATA[به صورت خودکار هر 15 دقیقه تعداد بازدیدهای موضوعات را به‌روزرسانی می‌کند. این وظیفه با توجه به وضعیت گزینه‌ی 'به‌روزرسانی تأخیری تعداد بازدیدهای موضوع؟' در تنظیمات، به صورت خوکار فعال و یا غیرفعال می‌شود.]]></description>
+		<file>threadviews</file>
+		<minute>10,25,40,55</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>0</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>بررسی جدول‌ها</title>
+		<description><![CDATA[به صورت خودکار جدول‌ها را به منظور تعمیر هرگونه خرابی در آن‌ها بررسی می‌کند.]]></description>
+		<file>checktables</file>
+		<minute>0</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>0</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>هرس کردن وقایع ثبت شده</title>
+		<description><![CDATA[به صورت خودکار فایل‌های مربوط به وقایع ثبت شده‌ی قدیمی را پاک‌سازی می‌کند (وقایع مربوط به: کارهای مدیر، کارهای ناظم، وظایف اجرا شده، ترفیع‌های کاربران و ایمیل‌های ثبت شده)]]></description>
+		<file>logcleanup</file>
+		<minute>21</minute>
+		<hour>5</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>پیام انبوه</title>
+		<description><![CDATA[به صورت خودکار هر 15 دقیقه پیام‌های انبوه موجود در صف را ارسال می‌کند.]]></description>
+		<file>massmail</file>
+		<minute>10,25,40,55</minute>
+		<hour>*</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>هرس کردن کاربران</title>
+		<description><![CDATA[به صورت خودکار هر روز کاربرانی که شرایط هرس شدن را داشته باشند، حذف می‌کند.]]></description>
+		<file>userpruning</file>
+		<minute>0</minute>
+		<hour>2</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>مدیریت تأخیری</title>
+		<description><![CDATA[مدیریت‌های تأخیری ثبت شده را هر 24 ساعت یک مرتبه اجرا می‌کند.]]></description>
+		<file>delayedmoderation</file>
+		<minute>0</minute>
+		<hour>0</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+	<task>
+		<title>بررسی نسخه</title>
+		<description><![CDATA[به صورت خودکار سرور MyBB را به منظور دریافت اخبار جدید و اطلاع از انتشار نسخه‌ی جدید MyBB بررسی می‌کند.]]></description>
+		<file>versioncheck</file>
+		<minute>0</minute>
+		<hour>0</hour>
+		<day>*</day>
+		<weekday>*</weekday>
+		<month>*</month>
+		<enabled>1</enabled>
+		<logging>1</logging>
+	</task>
+    <task>
+        <title>بازسازی کَش قالب بندی‌ها</title>ک
+        <description><![CDATA[َش تمامی قالب بندی‌ها را بازسازی می‌کند و همچنین قالب بندی‌ها را کوچک‌سازی می‌کند.]]></description>
+        <file>recachestylesheets</file>
+        <minute>0</minute>
+        <hour>0</hour>
+        <day>1</day>
+        <weekday>0</weekday>
+        <month>0</month>
+        <enabled>0</enabled>
+        <logging>1</logging>
+    </task>
+</tasks>

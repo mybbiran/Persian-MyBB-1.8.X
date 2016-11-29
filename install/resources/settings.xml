@@ -1,0 +1,2437 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings version="1808">
+	<settinggroup name="onlineoffline" title="باز / بسته بودن انجمن" description="این تنظیمات به شما این امکان را می‌دهند که انجمن خود را به‌طور کلی ببندید و یا باز کنید. همچنین شما را قادر می‌سازند که دلیل بسته بودن انجمن خود را نیز به کاربران نمایش دهید." disporder="1" isdefault="1">
+		<setting name="boardclosed">
+			<title>انجمن بسته باشد؟</title>
+			<description><![CDATA[اگر می‌خواهید انجمن خود را به منظور تغییرات و یا به منظور به‌روزرسانی ببندید، این گزینه را فعال کنید. در این صورت، بازدیدکنندگان قادر به مشاهده‌ی انجمن شما نخواهند بود و تنها دلیل بسته بودن انجمن را مشاهده خواهند کرد. البته مدیران می‌توانند انجمن شما را ببینند.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="boardclosed_reason">
+			<title>دلیل بسته بودن انجمن</title>
+			<description><![CDATA[اگر انجمن شما بسته باشد، بازدیدکنندگان تنها این پیغام را مشاهده خواهند کرد. همچنین می‌توانید این گزینه را خالی بگذارید تا از متن پیش‌فرض تعریف شده در فایل زبان استفاده شود.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[textarea]]></optionscode>
+			<settingvalue><![CDATA[این انجمن درحال حاضر به منظور اعمال برخی تغییرات بسته می‌باشد. لطفاً ساعاتی دیگر به انجمن مراجعه کنید.]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="details" title="اطلاعات سایت" description="این بخش شامل تنظیمات مختلفی مانند نام و لینک انجمن و وب‌سایت است." disporder="2" isdefault="1">
+		<setting name="bbname">
+			<title>نام انجمن</title>
+			<description><![CDATA[نام انجمن شما. پیشنهاد می‌شود بیش‌تر از 75 حرف نباشد.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[انجمن من]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="bburl">
+			<title>آدرس (URL) انجمن</title>
+			<description><![CDATA[آدرس (URL) مخصوص انجمن شما.<br />همچنین عبارت http:// را به ابتدای آن اضافه کنید و از وارد کردن خط مورب [/] به انتهای آن خودداری کنید.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="homename">
+			<title>عنوان صفحه‌ی خانگی (HomePage)</title>
+			<description><![CDATA[نام صفحه‌ی خانگی (HomePage) شما. این نام همراه با لینک آن در بخش انتهایی انجمن نمایش داده می‌شود.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="homeurl">
+			<title>لینک صفحه‌ی خانگی (HomePage)</title>
+			<description><![CDATA[لینک کامل صفحه‌ی خانگی (HomePage) شما. این لینک به همراه نام آن در بخش انتهایی انجمن نمایش داده می‌شود.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[/]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="adminemail">
+			<title>ایمیل مدیرکل</title>
+			<description><![CDATA[آدرس ایمیل مدیرکل. از این آدرس ایمیل برای ارسال ایمیل‌هایی که از طریق انجمن ارسال می‌شوند، استفاده می‌شود.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="returnemail">
+			<title>ایمیل بازگشت</title>
+			<description><![CDATA[آدرس ایمیلی که درصورت پاسخ به ایمیل‌های ارسال از طرف انجمن، آن پیام پاسخ به این ایمیل ارسال می‌شود و برای ارسال ایمیل‌های بدون پاسخ (no-reply) مفید است. اگر خالی بگذارید، از آدرس ایمیل مدیرکل استفاده می‌شود.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="contactemail">
+			<title>ایمیل تماس</title>
+			<description><![CDATA[The email address that messages sent via the contact form (contact.php) will be sent to. Leave blank to use the admin email address instead.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="contactlink">
+			<title>لینک صفحه‌ی تماس</title>
+			<description><![CDATA[این لینک برای صفحه‌ی تماس که در بخش انتهایی انجمن نمایش داده می‌شود، استفاده می‌گردد. این گزینه می‌تواند یک آدرس ایمیل (با استفاده از mailto:email@website.com) و یا یک لینک باشد.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="cookiedomain">
+			<title>دامنه‌ی کوکی‌ها</title>
+			<description><![CDATA[دامنه‌ای که کوکی‌ها به آن تنظیم می‌شوند. این گزینه می‌تواند خالی باشد. همچنین باید با یک . (نقطه) آغاز شود تا تمامی دامنه‌ها را پوشش دهد.]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="cookiepath">
+			<title>مسیر کوکی‌ها</title>
+			<description><![CDATA[مسیری که کوکی‌ها در آن قرار می‌گیرند. پیشنهاد می‌شود که مسیر کامل انجمن خود را وارد کنید و در انتهای آن یک خط مورب [/] وارد کنید.]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[/]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="cookieprefix">
+			<title>پیش‌وند کوکی‌ها</title>
+			<description><![CDATA[پیش‌وندی که به تمامی کوکی‌های ایجاد شده توسط MyBB تعلق می‌گیرد. این گزینه در مواردی که شما چندین نسخه از MyBB را برروی یک سرور نصب می‌کنید و یا هنگامی که از سیستم مدیریت محتوایی که امکان تداخل نام کوکی‌های آن با MyBB وجود دارد استفاده می‌کنید، مناسب است. اگر خالی بگذارید، هیچ پیش‌وندی اضافه نخواهد شد.]]></description>
+			<disporder>11</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showvernum">
+			<title>نمایش نسخه</title>
+			<description><![CDATA[به شما این امکان را می‌دهد که اعداد مربوط به نسخه‌ها در MyBB را به کاربران نمایش دهید و یا پنهان کنید.]]></description>
+			<disporder>12</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="mailingaddress">
+			<title>آدرس پستی</title>
+			<description><![CDATA[اگر آدرس پستی دارید، آن را در این‌جا وارد کنید. این آدرس در فرم توافق‌نامه‌ی COPPA نمایش داده می‌شود.]]></description>
+			<disporder>13</disporder>
+			<optionscode><![CDATA[textarea]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="faxno">
+			<title>شماره‌ی فکس تماس</title>
+			<description><![CDATA[اگر شماره‌ی فکس دارید، آن را در این‌جا وارد کنید. این شماره در فرم توافق‌نامه‌ی COPPA نمایش داده می‌شود.]]></description>
+			<disporder>14</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="general" title="تنظیمات عمومی" description="این بخش به شما این امکان را می‌دهد که تنظیمات عمومی انجمن خود را مدیریت کنید." disporder="3" isdefault="1">
+		<setting name="bblanguage">
+			<title>زبان پیش‌فرض</title>
+			<description><![CDATA[زبان پیش‌فرضی که MyBB از آن برای کاربران مهمان و کاربرانی که زبان دیگری را از کنترل پنل کاربری خود انتخاب نکرده‌اند، استفاده می‌کند.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[language]]></optionscode>
+			<settingvalue><![CDATA[persian]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="captchaimage">
+			<title><![CDATA[استفاده از تصاویر CAPTCHA برای عضویت و ارسال پست]]></title>
+			<description><![CDATA[برای پیش‌گیری از ثبت نام و ارسال پست به صورت خودکار توسط ربات‌ها، می‌توانید از یک نوع تأیید تصویری استفاده کنید. برای اطلاعات بیش‌تر در مورد CAPTCHAها به صفحه‌ی مستندات MyBB مراجعه کنید.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[select
+0=عدم استفاده از CAPTCHA
+1=استفاده از CAPTCHA پیش‌فرض MyBB
+2=استفاده از reCAPTCHA
+4=استفاده از NoCAPTCHA reCAPTCHA]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="captchapublickey">
+			<title><![CDATA[reCAPTCHA Public Key]]></title>
+			<description><![CDATA[reCAPTCHA Public Key مورد استفاده‌ی شما.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="captchaprivatekey">
+			<title><![CDATA[reCAPTCHA Private Key]]></title>
+			<description><![CDATA[reCAPTCHA Private Key مورد استفاده‌ی شما.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="reportmethod">
+			<title>نحوه‌ی دریافت گزارش شدن ارسال‌ها</title>
+			<description><![CDATA[نحوه‌ی دریافت گزارش شدن ارسال‌ها را تعیین کنید. ثبت آن‌ها در بانک اطلاعاتی بهترین گزینه است.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[radio
+db=ثبت در بانک اطلاعاتی
+pms=دریافت از طریق پیام خصوصی
+email=دریافت از طریق ایمیل]]></optionscode>
+			<settingvalue><![CDATA[db]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="decpoint">
+			<title>نماد اعشاری</title>
+			<description><![CDATA[نماد اعشاری مورد استفاده در منطقه‌ی زندگی شما.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[/]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="thousandssep">
+			<title>جداکننده‌ی هزارها از اعداد</title>
+			<description><![CDATA[نمادی که ارقام را به صورت سه رقم-سه رقم از هم جدا می‌کند. مثلاً اگر از نماد ',' استفاده کنید، عدد 1200 به 1,200 تبدیل می‌شود.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[,]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showlanguageselect">
+			<title>نمایش منوی انتخاب زبان در انتهای انجمن؟</title>
+			<description><![CDATA[اگر نمی‌خواهید منوی انتخاب زبان در انتهای انجمن نمایش داده شود، این گزینه را بر روی خیر تنظیم کنید. اگر تنها یک زبان برروی انجمن شما نصب شده باشد، این گزینه اعمال نمی‌شود.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showthemeselect">
+			<title>نمایش منوی انتخاب پوسته در انتهای انجمن؟</title>
+			<description><![CDATA[اگر نمی‌خواهید منوی انتخاب پوسته در انتهای تمامی صفحات انجمن نمایش داده شود، این گزینه را برروی خیر تنظیم کنید.]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxmultipagelinks">
+			<title>بیش‌ترین تعداد صفحات در صفحه‌بندی</title>
+			<description><![CDATA[در برخی انجمن‌ها و موضوعات تعداد صفحات بیش از یک صفحه است و یک بخش به نام صفحه‌بندی در انجمن یا موضوع اضافه می‌شود که کاربر از طریق آن، صفحه‌ی مورد نظر را انتخاب می‌کند. این گزینه شما را قادر می‌سازد که حداکثر تعداد شماره‌ی صفحات مورد نمایش را تعیین کنید.]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[5]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="jumptopagemultipage">
+			<title>نمایش فرم پرش به صفحه در بخش صفحه‌بندی؟</title>
+			<description><![CDATA[درصورتی که می‌خواهید هنگامی که تعداد صفحات موجود در بخش صفحه‌بندی به بیش‌ترین مقدار خود می‌رسد یک فرم "پرش به صفحه" که کاربر در آن عدد مربوط به صفحه‌ی مورد نظر را وارد خواهد کرد و پس از وارد کردن آن عدد به صفحه‌ی مربوط به آن عدد منتقل می‌شود نمایش داده شود، گزینه‌ی بله را انتخاب کنید.]]></description>
+			<disporder>11</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="no_plugins">
+			<title>از کار اندازی همه‌ی پلاگین‌ها؟</title>
+			<description><![CDATA[اگر این گزینه‌ها را برروی بله تنظیم کنید، همه‌ی پلاگین‌ها بدون حذف و یا غیرفعال شدن از کار می‌افتند. فعال‌سازی این گزینه معادل اضافه کردن دستی عبارت NO_PLUGINS به ابتدای فایل ./inc/init.php است.]]></description>
+			<disporder>12</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="deleteinvites">
+			<title>زمان منقضی شدن دعوت‌نامه‌های گروه</title>
+			<description><![CDATA[تعداد روزهایی که پس از آن، دعوت‌نامه‌هایی که برای عضویت در گروه ارسال شده‌اند، منقضی خواهند شد. برای غیرفعال‌سازی این گزینه، عدد 0 را وارد کنید.]]></description>
+			<disporder>13</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[180]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="redirects">
+			<title>استفاده از صفحات هدایت کننده؟</title>
+			<description><![CDATA[این گزینه به‌جای انتقال مستقیم کاربر به صفحه‌ی مورد نظر، از صفحه‌ی هدایت کننده استفاده می‌کند. به این صورت که هنگامی که کاربر صفحه‌ای را می‌خواهد مشاهده کند، ابتدا صفحه‌ی هدایت کننده نمایش داده می‌شود و این صفحه کاربر را به صفحه‌ی مورد نظر انتقال می‌دهد.]]></description>
+			<disporder>14</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="enableforumjump">
+			<title>فعال بودن منوی پرش به انجمن؟</title>
+			<description><![CDATA[منوی پرش به انجمن در صفحات موضوعات و انجمن‌ها نمایش داده می‌شود. اگر تعداد زیادی انجمن داشته باشید، این منو  بارگذاری انجمن شما را به شکل چشم‌گیری تحت تأثیر قرار می‌دهد. برای غیرفعال‌سازی این گزینه، خیر را انتخاب کنید.]]></description>
+			<disporder>15</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="server" title="تنظیمات سرور و بهینه‌سازی" description="این بخش به شما را قادر می‌سازد که تنظیمات مختلف سرور و بهینه‌سازی انجمن را که موجب کاهش حچم بارگذاری و عملکرد بهتر انجمن شما می‌شود، تعیین کنید." disporder="4" isdefault="1">
+		<setting name="seourls">
+			<title>استفاده از لینک‌های مورد علاقه‌ی موتورهای جستجو؟</title>
+			<description><![CDATA[این گزینه لینک‌های MyBB را به لینک‌هایی کوتاه‌تر که تایپ کردن آن‌ها ساده‌تر است و موتورهای جستجو این‌گونه لینک‌ها را ترجیح می‌دهند تبدیل می‌کند. مثلاً showthread.php?tid=1 به thread-1.html تبدیل می‌شود.</br><strong>هنگامی که از این گزینه استفاده می‌کنید، باید مطمئن باشید که از فایل .htaccess مخصوص MyBB در مسیر اصلی انجمن خود استفاده می‌کنید (این قضیه در مورد وب‌سرور هم برقرار است). تشخیص و شناسایی خودکار ممکن است برروی همه‌ی سرورها عمل نکند.</strong></br>برای دریافت راهنمایی <a href="http://docs.mybb.com/SEF_URLs.html">بخش مستندات MyBB</a> را مشاهده کنید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[select
+auto=تشخیص و شناسایی خودکار
+yes=فعال باشد
+no=غیرفعال باشد]]></optionscode>
+			<settingvalue><![CDATA[auto]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="seourls_archive">
+			<title>استفاده از لینک‌های مورد علاقه‌ی موتورهای جستجو در بخش آرشیو؟</title>
+			<description><![CDATA[قابلیت لینک‌های مورد علاقه‌ی موتورهای جستجو در بخش آرشیو مورد استفاده قرار می‌گیرد. <strong>پس از فعال‌سازی این گزینه، از عملکرد صحیح بخش آرشیو اطمینان حاصل کنید.</strong>]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="gzipoutput">
+			<title>استفاده از قابلیت فشرده‌سازی GZip صفحات؟</title>
+			<description><![CDATA[آیا می‌خواهید صفحات انجمن هنگام ارسال به مرورگر به صورت GZip فشرده‌سازی شوند؟ این قابلیت به معنای حجم کم‌تر دریافتی توسط بازدیدکننده و مصرف کم‌تر ترافیک در سرور شما است.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="gziplevel">
+			<title>درجه‌ی فشرده‌سازی صفحات توسط GZip</title>
+			<description><![CDATA[درجه‌ی فشرده‌سازی صفحات را از 0 تا 9 تعیین کنید. (0=فشرده‌سازی انجام نمی‌شود , 9=حداکثر فشرده‌سازی). دراکثر موارد عدد 4 پیشنهاد می شود.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[4]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="nocacheheaders">
+			<title>جلوگیری از کَش شدن صفحات؟</title>
+			<description><![CDATA[با استفاده از این گزینه می‌توانید از کَش شدن صفحات توسط مرورگرها جلوگیری کنید.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="load">
+			<title>محدودسازی بارگذاری *NIX</title>
+			<description><![CDATA[حداکثر میزان بارگذاری سرور پیش از رد کردن کاربران در استفاده از انجمن. اگر نمی‌خواهید محدودیتی اعمال کنید، عدد 0 را وارد کنید. مقدار پیشنهادی عدد 5.0 است.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="tplhtmlcomments">
+			<title>نمایش توضیحات ابتدایی / انتهایی قالب‌ها؟</title>
+			<description><![CDATA[این گزینه امکان فعال‌سازی/غیرفعال‌سازی توضیحات ابتدایی / انتهایی در قالب‌ها را هنگام مشاهده‌ی آن‌ها فراهم می‌سازد.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="use_xmlhttprequest">
+			<title>استفاده از قابلیت‌های درخواست XMLHttp؟</title>
+			<description><![CDATA[این گزینه تعیین می‌کند که آیا از قابلیت‌های درخواست XMLHttp استفاده شود یا خیر.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="extraadmininfo">
+			<title>استفاده از آمار پیشرفته / اشکال‌زدایی؟</title>
+			<description><![CDATA[بارگذاری سرور، زمان ایجاد صفحه، حافظه‌ی مورد استفاده و ... را در پایین تمامی صفحات مسیر اصلی نمایش می‌دهد.لطفاً توجه داشته باشید که تنها مدیران‌کل می‌توانند این اطلاعات را مشاهده کنند.]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="uploadspath">
+			<title>مسیر آپلود فایل‌ها</title>
+			<description><![CDATA[مسیری که تمامی فایل‌های آپلودی در انجمن، در آن مسیر آپلود می‌شوند. این مسیر <b>باید دسترسی 777 داشته باشد</b> (برروی سرورهای *nix).]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[./uploads]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="useerrorhandling">
+			<title>استفاده از سیستم مدیریت خطاها؟</title>
+			<description><![CDATA[اگر نمی‌خواهید از سیستم یکپارچه‌ی مدیریت خطاهای MyBB استفاده کنید، این گزینه را خاموش کنید. هرچند که ما پیشنهاد می‌کنیم این گزینه را روشن بگذارید.]]></description>
+			<disporder>11</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="errorlogmedium">
+			<title>نحوه‌ی اطلاع از بروز خطاها</title>
+			<description><![CDATA[نحوه‌ی مدیریت خطاها را انتخاب کنید.]]></description>
+			<disporder>12</disporder>
+			<optionscode><![CDATA[select
+none=هیچ‌کدام
+log=ثبت خطاها
+email=ارسال خطاها از طریق ایمیل
+both=ثبت و ارسال خطاها از طریق ایمیل
+]]></optionscode>
+			<settingvalue><![CDATA[none]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="errortypemedium">
+			<title>نوع خطاهایی که نمایش داده می‌شوند</title>
+			<description><![CDATA[نوع خطاهایی که می‌خواهید نمایش داده شوند را انتخاب کنید. پیشنهاد می‌شود که خطاها و اخطارهای انجمن پنهان باشند و به‌جای نمایش، ثبت شوند.]]></description>
+			<disporder>13</disporder>
+			<optionscode><![CDATA[select
+warning=اخطارها
+error=خطاها
+both=اخطارها و خطاها
+none=پنهان‌سازی خطاها و اخطارها
+]]></optionscode>
+			<settingvalue><![CDATA[both]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="errorloglocation">
+			<title>محل ثبت خطاها</title>
+			<description><![CDATA[مکانی که خطاها در آن‌جا ثبت می‌شوند. (درصورتی که مکان تعیین شده باشد)]]></description>
+			<disporder>14</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[./error.log]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="ip_forwarded_check">
+			<title>بررسی جز‌به‌جز IP کاربران؟</title>
+			<description><![CDATA[آیا می‌خواهید IP کاربران برای هدرهای HTTP_X_FORWARDED_FOR یا HTTP_X_REAL_IP بررسی شود؟ اگر در این باره چیزی نمی‌دانید، این گزینه را فعال نکنید.]]></description>
+			<disporder>15</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="minifycss">
+			<title>کوچک‌سازی قالب بندی‌ها؟</title>
+			<description><![CDATA[آیا می‌خواهید قالب بندی‌ها کوچک‌سازی شوند؟ انتخاب این گزینه موجب کاهش پهنای باند مورد استفاده و افزایش سرعت بارگذاری می‌شود.]]></description>
+			<disporder>15</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="usecdn">
+			<title>استفاده از یک شبکه‌ی تحویل محتوا (CDN)؟</title>
+			<description><![CDATA[شما می‌توانید از یک CDN (شبکه‌ی تحویل محتوا) برای بارگذاری فایل‌های ثابت مانند قالب بندی‌ها، تصاویر و فایل‌های Javascript استفاده کنید. آیا می‌خواهید این قابلیت را فعال کنید؟]]></description>
+			<disporder>16</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="cdnurl">
+			<title>لینک مورد استفاده‌ی فایل‌های ثابت</title>
+			<description><![CDATA[اگر گزینه‌ی CDN فوق را فعال کرده‌اید، لطفاً لینک آن را برای دریافت اطلاعات ثابت از آن، وارد کنید. این لینک باید معتبر، و بدون خط مورب پایانی (Slash[/]) باشد.]]></description>
+			<disporder>17</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="cdnpath">
+			<title>مسیر ذخیره‌ی فایل‌های ثابت</title>
+			<description><![CDATA[درصورتی که گزینه‌ی CDN فوق را فعال کرده‌اید، لطفاً به صورت اختیاری یک مسیر کامل برای نگه‌داری فایل‌های ثابت در آن، وارد کنید. این گزینه تنها برای CDNهای از نوع "Push" و یا زیر-دامنه‌ی محلی، مناسب است. این مسیر را بدون خط مورب پایانی (Slash[/]) وارد کنید.]]></description>
+			<disporder>18</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+	</settinggroup>
+	<settinggroup name="datetime" title="قالب بندی‌های تاریخ و زمان" description="در این‌جا می‌توانید قالب بندی‌های مختلفی را برای نمایش تاریخ و زمان در انجمن انتخاب کنید." disporder="5" isdefault="1">
+		<setting name="dateformat">
+			<title>قالب بندی تاریخ</title>
+			<description><![CDATA[قالب بندی نمایش تاریخ در انجمن. این قالب بندی از تابع PHP date() استفاده می‌کند. پیشنهاد می‌کنیم تا زمانی که درباره‌ی قالب بندی تاریخ اطلاعات کافی ندارید، این تنظیم را تغییر ندهید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[Y/m/d]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="timeformat">
+			<title>قالب بندی زمان</title>
+			<description><![CDATA[قالب بندی نمایش زمان در انجمن. این قالب بندی از تابع PHP date() استفاده می‌کند. پیشنهاد می‌کنیم تا زمانی که درباره‌ی قالب بندی زمان اطلاعات کافی ندارید، این تنظیم را تغییر ندهید.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[h:i A]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="datetimesep">
+			<title>جداکننده‌ی تاریخ/زمان</title>
+			<description><![CDATA[هنگامی که MyBB به صورت هم‌زمان از هر دو قالب بندی تاریخ و زمان استفاده می‌کند، این گزینه آن‌ها را از هم تفکیک می‌کند (معمولاً با استفاده از فاصله و یا یک کاما).]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[، ]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="regdateformat">
+			<title>قالب بندی تاریخ عضویت</title>
+			<description><![CDATA[قالب بندی تاریخ عضویت که در زیر مشخصات کاربر در صفحه‌ی نمایش ارسال‌ها نمایش داده می‌شود.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[M Y]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="timezoneoffset">
+			<title>منطقه‌ی زمانی پیش‌فرض</title>
+			<description><![CDATA[این گزینه منطقه‌ی زمانی پیش‌فرض انجمن را تعیین می‌کند. این منطقه‌ی زمانی برای کاربران مهمان و اعضایی که از منطقه‌ی زمانی پیش‌فرض استفاده می‌کنند اعمال می‌شود.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[php
+<select name=\"upsetting[{$setting['name']}]\">
+<option value=\"-12\" ".($setting['value'] == -12?"selected=\"selected\"":"").">GMT -12:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -12).")</option>
+<option value=\"-11\" ".($setting['value'] == -11?"selected=\"selected\"":"").">GMT -11:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -11).")</option>
+<option value=\"-10\" ".($setting['value'] == -10?"selected=\"selected\"":"").">GMT -10:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -10).")</option>
+<option value=\"-9.5\" ".($setting['value'] == -9.5?"selected=\"selected\"":"").">GMT -9:30 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -9.5).")</option>
+<option value=\"-9\" ".($setting['value'] == -9?"selected=\"selected\"":"").">GMT -9:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -9).")</option>
+<option value=\"-8\" ".($setting['value'] == -8?"selected=\"selected\"":"").">GMT -8:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -8).")</option>
+<option value=\"-7\" ".($setting['value'] == -7?"selected=\"selected\"":"").">GMT -7:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -7).")</option>
+<option value=\"-6\" ".($setting['value'] == -6?"selected=\"selected\"":"").">GMT -6:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -6).")</option>
+<option value=\"-5\" ".($setting['value'] == -5?"selected=\"selected\"":"").">GMT -5:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -5).")</option>
+<option value=\"-4.5\" ".($setting['value'] == -4.5?"selected=\"selected\"":"").">GMT -4:30 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -4.5).")</option>
+<option value=\"-4\" ".($setting['value'] == -4?"selected=\"selected\"":"").">GMT -4:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -4).")</option>
+<option value=\"-3.5\" ".($setting['value'] == -3.5?"selected=\"selected\"":"").">GMT -3:30 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -3.5).")</option>
+<option value=\"-3\" ".($setting['value'] == -3?"selected=\"selected\"":"").">GMT -3:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -3).")</option>
+<option value=\"-2\" ".($setting['value'] == -2?"selected=\"selected\"":"").">GMT -2:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -2).")</option>
+<option value=\"-1\" ".($setting['value'] == -1?"selected=\"selected\"":"").">GMT -1:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, -1).")</option>
+<option value=\"0\" ".($setting['value'] == 0?"selected=\"selected\"":"").">GMT (".my_date($mybb->settings['timeformat'], TIME_NOW, 0).")</option>
+<option value=\"+1\" ".($setting['value'] == 1?"selected=\"selected\"":"").">GMT +1:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 1).")</option>
+<option value=\"+2\" ".($setting['value'] == 2?"selected=\"selected\"":"").">GMT +2:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 2).")</option>
+<option value=\"+3\" ".($setting['value'] == 3?"selected=\"selected\"":"").">GMT +3:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 3).")</option>
+<option value=\"+3.5\" ".($setting['value'] == 3.5?"selected=\"selected\"":"").">GMT +3:30 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 3.5).")</option>
+<option value=\"+4\" ".($setting['value'] == 4?"selected=\"selected\"":"").">GMT +4:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 4).")</option>
+<option value=\"+4.5\" ".($setting['value'] == 4.5?"selected=\"selected\"":"").">GMT +4:30 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 4.5).")</option>
+<option value=\"+5\" ".($setting['value'] == 5?"selected=\"selected\"":"").">GMT +5:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 5).")</option>
+<option value=\"+5.5\" ".($setting['value'] == 5.5?"selected=\"selected\"":"").">GMT +5:30 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 5.5).")</option>
+<option value=\"+5.75\" ".($setting['value'] == 5.75?"selected=\"selected\"":"").">GMT +5:45 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 5.75).")</option>
+<option value=\"+6\" ".($setting['value'] == 6?"selected=\"selected\"":"").">GMT +6:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 6).")</option>
+<option value=\"+6.5\" ".($setting['value'] == 6.5?"selected=\"selected\"":"").">GMT +6:30 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 6.5).")</option>
+<option value=\"+7\" ".($setting['value'] == 7?"selected=\"selected\"":"").">GMT +7:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 7).")</option>
+<option value=\"+8\" ".($setting['value'] == 8?"selected=\"selected\"":"").">GMT +8:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 8).")</option>
+<option value=\"+8.5\" ".($setting['value'] == 8.5?"selected=\"selected\"":"").">GMT +8:30 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 8.5).")</option>
+<option value=\"+8.75\" ".($setting['value'] == 8.75?"selected=\"selected\"":"").">GMT +8:45 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 8.75).")</option>
+<option value=\"+9\" ".($setting['value'] == 9?"selected=\"selected\"":"").">GMT +9:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 9).")</option>
+<option value=\"+9.5\" ".($setting['value'] == 9.5?"selected=\"selected\"":"").">GMT +9:30 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 9.5).")</option>
+<option value=\"+10\" ".($setting['value'] == 10?"selected=\"selected\"":"").">GMT +10:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 10).")</option>
+<option value=\"+10.5\" ".($setting['value'] == 10.5?"selected=\"selected\"":"").">GMT +10:30 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 10.5).")</option>
+<option value=\"+11\" ".($setting['value'] == 11?"selected=\"selected\"":"").">GMT +11:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 11).")</option>
+<option value=\"+11.5\" ".($setting['value'] == 11.5?"selected=\"selected\"":"").">GMT +11:30 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 11.5).")</option>
+<option value=\"+12\" ".($setting['value'] == 12?"selected=\"selected\"":"").">GMT +12:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 12).")</option>
+<option value=\"+12.75\" ".($setting['value'] == 12.75?"selected=\"selected\"":"").">GMT +12:45 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 12.75).")</option>
+<option value=\"+13\" ".($setting['value'] == 13?"selected=\"selected\"":"").">GMT +13:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 13).")</option>
+<option value=\"+14\" ".($setting['value'] == 14?"selected=\"selected\"":"").">GMT +14:00 Hours (".my_date($mybb->settings['timeformat'], TIME_NOW, 14).")</option>
+</select>]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="dstcorrection">
+			<title>استفاده از ساعت تابستانی؟</title>
+			<description><![CDATA[درصورتی که مناطق زمانی بالا یک ساعت جلو یا عقب هستند و شما منطقه‌ی زمانی صحیح را انتخاب کرده‌اید، آن‌گاه این گزینه را فعال کنید.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="forumhome" title="تنظیمات صفحه‌ی اصلی انجمن" description="این بخش شما را قادر می‌سازد که تنظیمات صفحه‌ی اصلی انجمن (index.php) را تعیین کنید. به عنوان مثال یک قابلیت را فعال یا غیرفعال کنید." disporder="6" isdefault="1">
+		<setting name="showdescriptions">
+			<title>نمایش توضیحات انجمن؟</title>
+			<description><![CDATA[این گزینه به شما اجازه می‌دهد که نمایش توضیحات برای انجمن‌ها را غیرفعال کنید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="subforumsindex">
+			<title>تعداد زیرانجمن‌های قابل نمایش در فهرست صفحه‌ی اصلی</title>
+			<description><![CDATA[تعداد زیرانجمن‌هایی که می‌خواهید در فهرست انجمن‌ها در صفحه‌ی اصلی و صفحه‌ی نمایش انجمن‌ها نمایش داده شود را وارد کنید. برای این‌که هیچ زیرانجمنی نمایش داده نشود، عدد 0 را وارد کنید.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[2]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="subforumsstatusicons">
+			<title>نمایش آیکون وضعیت زیرانجمن‌ها؟</title>
+			<description><![CDATA[نمایش آیکون‌های کنار زیرانجمن‌ها که بیان‌گر این هستند که زیرانجمن حاوی ارسال جدید است یا خیر؟ اگر تعیین کرده‌اید که هیچ زیرانجمنی در صفحه‌ی اصلی نمایش داده نشود، این گزینه بی‌اثر خواهد بود.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="hideprivateforums">
+			<title>پتهان‌سازی انجمن‌های خصوصی؟</title>
+			<description><![CDATA[با فعال‌سازی این گزینه، انجمن‌های خصوصی به کاربران نمایش داده نمی‌شود. این گزینه همچنین انجمن‌های خصوصی را در منوی پرش به انجمن و زیرانجمن‌ها پنهان می‌کند.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="modlist">
+			<title>نمایش فهرست مدیران انجمن؟</title>
+			<description><![CDATA[با استفاده از این گزینه می‌توانید تعیین کنید که فهرست مدیران هر انجمن در صفحات index.php و forumdisplay.php نمایش داده شود یا خیر.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showbirthdays">
+			<title>نمایش تولدهای امروز؟</title>
+			<description><![CDATA[آیا می‌خواهید اعضایی سالگرد تولدشان است در بخش انتهایی صفحه‌ی اصلی انجمن نمایش داده شوند؟]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showbirthdayspostlimit">
+			<title>تنها نمایش تولد کاربرانی که X ارسال داشته‌اند</title>
+			<description><![CDATA[با استفاده از این گزینه می‌توانید تعیین کنید که تنها درصورتی که کاربر حداقل این تعداد ارسال را داشته باشد در فهرست تولدهای امروز قرار گیرد. برای این‌که این محدودیت اعمال نشود، عدد 0 را وارد کنید.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showwol">
+			<title>نمایش فهرست افراد آنلاین؟</title>
+			<description><![CDATA[این گزینه تعیین می‌کند که آیا فهرست کاربرانی که هم‌اکنون در انجمن حضور دارند در صفحه‌ی اصلی انجمن نمایش داده شود یا خیر.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showindexstats">
+			<title>نمایش بخش آمار کوتاه؟</title>
+			<description><![CDATA[آیا می‌خواهید تعداد کل موضوع‌ها، ارسال‌ها، اعضا و نام کاربری آخرین عضو انجمن در صفحه‌ی اصلی نمایش داده شود؟]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showforumviewing">
+			<title>نمایش تعداد کاربران درحال بازدید از انجمن؟</title>
+			<description><![CDATA[تعداد کاربرانی که درحال حاضر از هر انجمن بازدید می‌کنند را نمایش می‌دهد.]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="forumdisplay" title="تنظیمات نمایش انجمن‌ها" description="این بخش شما را قادر می‌سازد که تنظیمات مختلفی از صفحه‌ی نمایش انجمن‌ها (forumdisplay.php) را مدیریت کنید. به عنوان مثال یک یا چند قابلیت را فعال یا غیرفعال کنید." disporder="7" isdefault="1">
+		<setting name="threadsperpage">
+			<title>تعداد موضوعات در هر صفحه</title>
+			<description><![CDATA[تعداد موضوعاتی که در هر انجمن به صورت فهرست نمایش داده می‌شوند.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[20]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="hottopic">
+			<title>تعداد پاسخ‌های موضوع داغ</title>
+			<description><![CDATA[حداقل تعداد پاسخ‌های مورد نیاز برای تبدیل شدن یک موضوع به 'موضوع داغ'.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[20]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="hottopicviews">
+			<title>تعداد بازدیدهای موضوع داغ</title>
+			<description><![CDATA[حداقل تعداد بازدیدهای مورد نیاز از موضوع برای تبدیل شدن یک موضوع به 'موضوع داغ'.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[150]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="usertppoptions">
+			<title>تعداد موضوعات انتخابی توسط کاربر</title>
+			<description><![CDATA[اگر می‌خواهید به کاربران این اجازه را بدهید که بتوانند تعداد موضوعات داخل هر صفحه از انجمن را برای خود تعیین کنند، گزینه‌هایی که می‌توانند انتخاب کنند را در این‌جا وارد کنید و آن‌ها را با استفاده از کاما(,) از یکدیگر جداسازی کنید. اگر این گزینه خالی بماند، کاربران قادر نخواهند بود که تعداد موضوعات قابل نمایش در انجمن را خودشان انتخاب کنند.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[10,15,20,25,30,40,50]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="dotfolders">
+			<title>استفاده از آیکون 'نقطه'؟</title>
+			<description><![CDATA[آیا می‌خواهید در کنار موضوعاتی که کاربر در آن‌ها ارسال داشته است، نقطه‌ای نمایش داده شود؟]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowthreadratings">
+			<title>استفاده از قابلیت امتیازدهی به موضوع؟</title>
+			<description><![CDATA[کاربران انجمن بتوانند به موضوعات امتیاز دهند؟]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="browsingthisforum">
+			<title>نمایش کاربران درحال بازدید از انجمن؟</title>
+			<description><![CDATA[در این‌جا می‌توانید قابلیت نمایش 'کاربران درحال بازدید از انجمن' را غیرفعال کنید.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="announcementlimit">
+			<title>محدودیت تعداد اطلاعیه‌ها</title>
+			<description><![CDATA[حداکثر تعداد اطلاعیه‌هایی که به صورت فهرست در صفحه‌ی نمایش انجمن‌ها نمایش داده می‌شود. برای غیرفعال‌سازی اطلاعیه‌ها، عدد 0 را وارد کنید.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[2]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="readparentforums">
+			<title>تلاش برای نشانه‌گذاری انجمن‌های مادر به عنوان خوانده شده؟</title>
+			<description><![CDATA[اگر این گزینه اعمال شود، تلاش خواهد شد که انجمن‌های مادر یک زیرانجمن، درصورتی که دیگر ارسال خوانده نشده‌ای نداشته باشند به عنوان خوانده شده نشانه‌گذاری شوند. لطفاً توجه کنید که این گزینه می‌تواند منجر به کاهش کارایی و درخواست‌های متعددی از بانک اطلاعاتی شود بنابراین، باید به عنوان یک گزینه‌ی آزمایشی با آن برخورد شود. برای اطلاعات بیشتر در این مورد، <a href="http://docs.mybb.com/165.html">صفحه‌ی مستندات MyBB</a> را مطالعه کنید.]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="showthread" title="تنظیمات نمایش موضوع" description="این بخش شما را قادر می‌سازد که تنظیمات مختلفی از صفحه‌ی نمایش موضوعات (showthread.php) را مدیریت کنید. به عنوان مثال یک یا چند قابلیت را فعال یا غیرفعال کنید." disporder="8" isdefault="1">
+		<setting name="postlayout">
+			<title>قالب بندی ارسال‌ها</title>
+			<description><![CDATA[این گزینه به شما امکان انتخاب قالب بندی ارسال‌ها که شامل حالت عمودی(کلاسیک) و حالت افقی است را می‌دهد. حالت عمودی(کلاسیک)، اطلاعات نویسنده را در سمت راست ارسال نمایش می‌دهد. حالت افقی، اطلاعات کاربر را در بالای ارسال نمایش می‌دهد.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[radio
+horizontal=نمایش ارسال‌ها در حالت افقی
+classic=نمایش ارسال‌ها در حالت عمودی(کلاسیک)]]></optionscode>
+			<settingvalue><![CDATA[horizontal]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="postsperpage">
+			<title>تعداد ارسال‌ها در هر صفحه</title>
+			<description><![CDATA[تعداد ارسال‌هایی که در هر صفحه نمایش داده می‌شود. پیشنهاد می‌کنیم این مقدار بیش‌تر از 20 نباشد تا کاربرانی که سرعت اتصال کم‌تری دارند، با مشکل مواجه نشوند.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[10]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="userpppoptions">
+			<title>تعداد ارسال‌های انتخابی توسط کاربر</title>
+			<description><![CDATA[اگر می‌خواهید به کاربران این اجازه را بدهید که بتوانند تعداد ارسال‌های داخل هر صفحه از موضوع را برای خود تعیین کنند، گزینه‌هایی که می‌توانند انتخاب کنند را در این‌جا وارد کنید و آن‌ها را با استفاده از کاما(,) از یکدیگر جداسازی کنید. اگر این گزینه خالی بماند، کاربران قادر نخواهنند بود که تعداد ارسال‌های قابل نمایش در موضوع را خودشان انتخاب کنند.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[5,10,15,20,25,30,40,50]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="postmaxavatarsize">
+			<title>حداکثر ابعاد آواتار در ارسال‌ها</title>
+			<description><![CDATA[حداکثر ابعاد آواتار که در ارسال‌ها نشان داده می‌شود. اگر یک آواتار بسیار بزرگ باشد، به صورت خودکار تغییر اندازه داده می‌شود.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[55x55]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="threadreadcut">
+			<title>مدت زمان نگه‌داری وضعیت خوانده شدن موضوعات در بانک اطلاعاتی (در واحد روز)</title>
+			<description><![CDATA[تعداد روزهایی که می‌خواهید وضعیت خوانده شدن موضوعات توسط کاربر در بانک اطلاعاتی نگه‌داری شود. برای انجمن‌های بزرگ، وارد کردن یک عدد بزرگ برای این گزینه پیشنهاد نمی‌شود چرا که سرعت بارگذاری انجمن کندتر خواهد شد. برای غیرفعال‌سازی این قابلیت، عدد 0 را وارد کنید.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[7]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="threadusenetstyle">
+			<title>نمایش موضوعات شبیه به Usenet؟</title>
+			<description><![CDATA[فعال‌سازی این گزینه منجر می‌شود که ارسال‌های داخل موضوع، شبیه به ارسال‌های داخل موضوع در Usenet نمایش داده شوند. در غیر این صورت، به شکل مدرن و نوین نمایش داده می‌شوند.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="quickreply">
+			<title>نمایش جعبه‌ی ارسال پاسخ سریع؟</title>
+			<description><![CDATA[به شما این امکان را می‌دهد که جعبه‌ی ارسال پاسخ سریع در پایین موضوعات نمایش داده شود یا خیر.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="multiquote">
+			<title>نمایش دکمه‌ی نقل قول چندگانه؟</title>
+			<description><![CDATA[دکمه‌ی نقل قول چنگانه کاربران را قادر می‌سازد که یک سری از ارسال‌ها را انتخاب کنند و سپس با کلیک بر روی دکمه‌ی پاسخ، آن ارسال‌ها را به صورت نقل قول و یک‌جا در پیام خود وارد کنند.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showsimilarthreads">
+			<title>نمایش جدول 'موضوعات مشابه'؟</title>
+			<description><![CDATA[جدول موضوعات مشابه، موضوعاتی که به موضوع درحال مشاهده توسط کاربر مرتبط هستند را نشان می‌دهد. با استفاده از گزینه‌ی بعدی، می‌توانید نوع ارتباط را تعیین کنید.]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="similarityrating">
+			<title>میزان ارتباط موضوعات مشابه؟</title>
+			<description><![CDATA[این گزینه شما را قادر می‌سازد ک میزان ارتباط موضوعات مشابه را تعیین کنید (عدد 0 به معنای عدم ارتباط است). این عدد نباید بیش‌از 10 و برای انجمن‌های بزرگ، عدد کوچکی (<5) باشد. همچنین این تنظیم در بانک اطلاعاتی PgSQL عمل نمی‌کند.]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="similarlimit">
+			<title>تعداد موضوعات مشابه؟</title>
+			<description><![CDATA[در این‌جا می‌توانید تعداد موضوعاتی که در جدول موضوعات مشابه نمایش داده می‌شوند را تغییر دهید. پیشنهاد می‌شود برای 56 هزار کاربر، این عدد بیش‌تر از 15 نباشد.]]></description>
+			<disporder>11</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[10]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showforumpagesbreadcrumb">
+			<title>نمایش فهرست کشویی برای انتخاب صفحات؟</title>
+			<description><![CDATA[اگر تعداد موضوعات داخل انجمن بیش‌تر از 1 صفحه باشد، آیا می‌خواهید یک فهرست کشویی برای انتخاب صفحه‌ی مورد نظر نمایش داده شود؟]]></description>
+			<disporder>12</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="browsingthisthread">
+			<title>نمایش کاربران درحال بازدید از موضوع؟</title>
+			<description><![CDATA[با استفاده از این گزینه می‌توانید بخش نمایش 'کاربران درحال بازدید از موضوع' را غیرفعال کنید.]]></description>
+			<disporder>13</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="delayedthreadviews">
+			<title>به‌روزرسانی تأخیری تعداد بازدیدهای موضوع؟</title>
+			<description><![CDATA[اگر این گزینه فعال شود، تعداد بازدیدهای موضوعات با استفاده از یک وظیفه‌ی برنامه‌ریزی شده و نه به صورت آنی به‌روزرسانی خواهند شد. اگر این گزینه فعال نشود، تعداد بازدید موضوعات بلافاصله پس از مشاهده توسط کاربر به‌روزرسانی خواهد شد.]]></description>
+			<disporder>14</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="member" title="تنظیمات ثبت نام و ورود" description="در این بخش می‌توانید تنظیمات مختلقی را در ارتباط با ثبت نام و ورود کاربر به انجمن، مدیریت کنید." disporder="9" isdefault="1">
+		<setting name="disableregs">
+			<title>غیرفعال‌سازی ثبت نام در انجمن؟</title> 
+			<description><![CDATA[این گزینه شما را قادر می‌سازد تا با یک کلیک، امکان عضویت در انجمن را غیرفعال کنید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="regtype">
+			<title>نحوه‌ی فعال‌سازی عضویت</title>
+			<description><![CDATA[نحوه‌ی فعال‌سازی حساب کاربر پس از ثبت نام.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[select
+instant=فعال‌سازی آنی
+verify=ارسال ایمیل فعال‌سازی
+randompass=ارسال گذرواژه‌ی تصادفی
+admin=فعال‌سازی از پس از تأیید مدیر
+both=ارسال ایمیل فعال‌سازی و تأیید مدیر]]></optionscode>
+			<settingvalue><![CDATA[verify]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="awactialert">
+			<title>نمایش نوار اطلاع‌رسانی کاربران در انتظار فعال‌سازی؟</title>
+			<description><![CDATA[آیا می‌خواهید نوار اطلاعیه‌ی مربوط به حساب‌های کاربری در انتظار فعال‌سازی به مدیر نمایش داده شود؟]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="forcelogin">
+			<title>مچبورسازی کاربران به ورود؟</title>
+			<description><![CDATA[اگر گزینه‌ی بله را انتخاب کنید، کاربران مهمان تا زمانی که با نام کاربری خود وارد انجمن نشوند و یا در انجمن ثبت نام نکنند، قادر نخواهند بود که به انجمن دسترسی پیدا کنند.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="minnamelength">
+			<title>حداقل طول نام کاربری</title>
+			<description><![CDATA[کم‌ترین تعداد حروف لازم برای نام کاربری هنگام ثبت نام کاربر.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[3]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxnamelength">
+			<title>حداکثر طول نام کاربری</title>
+			<description><![CDATA[بیش‌ترین تعداد حروفی که کاربر هنگام ثبت نام می‌تواند برای نام کاربری خود انتخاب کند.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[30]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="minpasswordlength">
+			<title>حداقل طول گذرواژه</title>
+			<description><![CDATA[کم‌ترین تعداد حروفی که یک گذرواژه باید داشته باشد.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[6]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxpasswordlength">
+	    	<title>حداکثر طول گذرواژه</title>
+			<description><![CDATA[بیش‌ترین تعداد حروفی که یک گذرواژه می‌تواند داشته باشد.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[30]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="requirecomplexpasswords">
+			<title>گذرواژه باید پیچیده باشد؟</title>
+			<description><![CDATA[آیا می‌خواهید کاربران از گذرواژه‌های پیچیده استفاده کنند؟ گذرواژه‌های پیچیده باید حداقل شامل یک حرف کوچک، یک حرف بزرگ و یک عدد باشد.]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="betweenregstime">
+			<title>بازه‌ی زمانی بین دو عضویت</title>
+			<description><![CDATA[زمانی که طول می‌کشد (به ساعت) که کاربر پس از ثبت نام، بتواند با همان آدرس IP یک حساب کاربری دیگر ایجاد کند.]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[24]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxregsbetweentime">
+			<title>حداکثر تعداد عضویت با استفاده از یک آدرس IP</title>
+			<description><![CDATA[این گزینه حداکثر تعداد حساب کاربری‌ای که می‌تواند با یک آدرس IP ایجاد شود را با در نظر گرفتن تنظیم قبلی، تعیین می‌کند.]]></description>
+			<disporder>11</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[2]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowmultipleemails">
+			<title><![CDATA[اجازه‌ی چندین ثبت نام با یک ایمیل؟]]></title>
+			<description><![CDATA[اگر می‌خواهید کاربران بتوانند با استفاده از یک ایمیل چندین مرتبه ثبت نام کنند، بله را انتخاب کنید. در غیر این صورت، خیر را انتخاب کنید.]]></description>
+			<disporder>12</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="emailkeep">
+			<title>حفظ ایمیل کاربر؟</title>
+			<description><![CDATA[اگر یک کاربر دارای ایمیلی باشد که در فهرست حساب‌های محروم شده است، آیا کاربر بتواند این ایمیل را حفظ کند؟ این اتفاق زمانی رخ می‌دهد که اجازه‌ی چندین ثبت نام با یک ایمیل وجود داشته باشد اما پس از مدتی این امکان توسط شما غیرفعال شود و یکی از حساب‌های ایجاد شده با آن ایمیل محروم شده باشد.]]></description>
+			<disporder>13</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="hiddencaptchaimage">
+			<title>نمایش یک CAPTCHA مخفی؟</title>
+			<description><![CDATA[آیا می‌خواهید یک CAPTCHA مخفی هنگام ثبت نام کاربر نمایش داده شود؟ این گزینه از عضویت ربات‌های ارسال‌کننده‌ی اسپم جلوگیری می‌کند.]]></description>
+			<disporder>14</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="hiddencaptchaimagefield">
+			<title>فیلد CAPTCHA مخفی</title>
+			<description><![CDATA[شما با استفاده از این گزینه می‌توانید یک نام برای فیلد CAPTCHA مخفی قرار دهید.]]></description>
+			<disporder>15</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[email3]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="usereferrals">
+			<title>استفاده از سیستم معرفی کاربران؟</title>
+			<description><![CDATA[آیا می‌خواهید از سیستم معرفی کاربران در این انجمن استفاده شود؟]]></description>
+			<disporder>16</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="coppa">
+			<title>توافق‌نامه‌ی COPPA</title>
+			<description><![CDATA[اگر می‌خواهید هنگام ثبت نام کاربر از توافق‌نامه‌ی <a href="http://www.coppa.org/comply.htm">COPPA</a> استفاده کنید، تنظیمات مربوط به این گزینه را انتخاب کنید.]]></description>
+			<disporder>17</disporder>
+			<optionscode><![CDATA[select
+enabled=فعال باشد
+deny=از عضویت کاربران کم‌تر از 13 سال سن جلوگیری شود
+disabled=این قابلیت غیرفعال باشد]]></optionscode>
+			<settingvalue><![CDATA[disabled]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="username_method">
+			<title>روش‌های مجاز ورود به انجمن</title>
+			<description><![CDATA[چه اطلاعاتی می‌تواند در فیلد نام کاربری برای ورود به انجمن مورد استفاده قرار بگیرد؟ تنها نام کاربری، ایمیل یا هر دو؟]]></description>
+			<disporder>18</disporder>
+			<optionscode><![CDATA[select
+0=تنها نام کاربری
+1=تنها ایمیل
+2=نام کاربری یا ایمیل]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>0</isdefault>
+		</setting>
+		<setting name="failedcaptchalogincount">
+			<title>تعداد دفعات ورود ناموفق پیش از نیاز به تأیید تصویر CAPTCHA</title>
+			<description><![CDATA[تعداد دفعاتی که کاربر برای ورود تلاش می‌کند اما موفق به ورود نمی‌شود و پس از آن مجبور است هنگام تلاش برای ورود، عبارت داخل تصویر امنیتی را وارد کند. برای غیرفعال‌سازی این گزینه، عدد 0 را وارد کنید.]]></description>
+			<disporder>19</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[3]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="failedlogincount">
+			<title>تعداد دفعات مجاز برای ورود ناموفق</title>
+			<description><![CDATA[بیش‌ترین تعداد دفعاتی که کاربر می‌تواند برای ورود به انجمن تلاش کند. برای غیرفعال‌سازی این گزینه، عدد 0 را وارد کنید.]]></description>
+			<disporder>20</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[10]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="failedlogintime">
+			<title>مدت زمان انتظار بین تلاش‌های ناموفق برای ورود</title>
+			<description><![CDATA[بازه‌ی زمانی‌ای (به دقیقه) که کاربر پس از ورود ناموفق باید صبر کند تا مجدداً بتواند برای ورود به انجمن تلاش کند. اگر این گزینه مقداری به غیر از 0 داشته باشد، عمل خواهد کرد.]]></description>
+			<disporder>21</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[15]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="failedlogintext">
+			<title>نمایش تعداد ورودهای ناموفق؟</title>
+			<description><![CDATA[آیا می‌خواهید که متنی مبنی بر تعداد دفعات دیگری که کاربر می‌تواند برای ورود تلاش کند به او نمایش داده شود؟]]></description>
+			<disporder>22</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="regtime">
+			<title>حداقل زمان برای ثبت نام</title>
+			<description><![CDATA[کم‌ترین زمانی (به ثانیه) که باید طول بکشد تا کاربر همه‌ی فیلدهای ثبت نام را پر کند. این گزینه برای جلوگیری از ثبت نام ربات‌ها مورد استفاده قرار می‌گیرد. اگر عدد 0 وارد شود، این گزینه غیرفعال می‌شود.]]></description>
+			<disporder>23</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[15]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="securityquestion">
+			<title>استفاده از پرسش امنیتی؟</title>
+			<description><![CDATA[آیا می‌خواهید هنگام ثبت نام، یک سؤال امنیتی از کاربر پرسیده شود؟ این پرسش امنیتی باید توسط کاربر پاسخ داده شود. این قابلیت برای جلوگیری از ثبت نام ربات‌ها مورد استفاده قرار می‌گیرد.]]></description>
+			<disporder>24</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="profile" title="تنظیمات پروفایل" description="گزینه‌های موجود در این بخش، تنظیمات مربوط به پروفایل کاربران در انجمن را تعیین می‌کنند." disporder="10" isdefault="1">
+		<setting name="sigmycode">
+			<title>استفاده از MyCode در امضاها مجاز باشد؟</title>
+			<description><![CDATA[آیا کاربران می‌توانند در امضاهای خود از MyCode استفاده کنند؟]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="sigcountmycode">
+			<title>محاسبه‌ی MyCode در اندازه‌ی امضا؟</title>
+			<description><![CDATA[آیا می‌خواهید تعداد حروف MyCode نیز به عنوان تعداد حروف موجود در امضا محاسبه شود؟]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="sigsmilies">
+			<title>استفاده از شکلک‌ها در امضا مجاز باشد؟</title>
+			<description><![CDATA[آیا کاربران می‌توانند در امضاهای خود از شکلک‌ها استفاده کنند؟]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="sightml">
+			<title>استفاده از کدهای HTML در امضاها مجاز باشد؟</title>
+			<description><![CDATA[آیا کاربران می‌توانند در امضاهای خود از کدهای HTML استفاده کنند؟]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="sigimgcode">
+			<title>استفاده از کد [img] در امضاها مجاز باشد؟</title>
+			<description><![CDATA[آیا تمایل دارید که کاربران بتوانند در امضاهای خود از کد [img] (قرار دادن تصویر) استفاده کنند؟]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxsigimages">
+			<title>حداکثر تعداد تصاویر در امضاها</title>
+			<description><![CDATA[بیش‌ترین تعداد تصاویری که کاربران می‌توانند در امضای خود قرار دهند را وارد کنید (شامل شکلک‌ها نیز می‌شود). برای این‌که قرار دادن تصویر در امضا را غیرفعال کنید، عدد 0 را وارد کنید.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[2]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="siglength">
+			<title>حداکثر طول امضاها</title>
+			<description><![CDATA[بیش‌ترین تعداد حروفی که کاربر می‌تواند در امضای خود استفاده کند را وارد کنید.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[255]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="hidesignatures">
+			<title>پنهان‌سازی امضای کاربران از گروه‌های زیر</title>
+			<description><![CDATA[گروه‌های کاربری‌ای که می‌خواهید امضای کاربران به آن‌ها نمایش داده نشود را انتخاب کنید.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[groupselect]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="hidewebsite">
+			<title>پنهان‌سازی وب سایت کاربران از گروه‌های زیر</title>
+			<description><![CDATA[گروه‌های کاربری‌ای که می‌خواهید آدرس وب سایت کاربران به آن‌ها نمایش داده نشود را انتخاب کنید.]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[groupselect]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="useravatar">
+			<title>آواتار پیش‌فرض کاربر</title>
+			<description><![CDATA[اگر کاربر برای حساب کاربری خود آواتاری قرار نداده باشد، از این تصویر به عنوان آواتار او استفاده می‌شود.]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[images/default_avatar.png]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="useravatardims">
+			<title>ابعاد آواتار پیش‌فرض</title>
+			<description><![CDATA[ابعاد مورد استفاده در آواتار پیش‌فرض؛ طول در عرض (نمونه: 40|40)]]></description>
+			<disporder>11</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[100|100]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="useravatarrating">
+			<title>مرتبه‌ی Gravatar</title>
+			<description><![CDATA[به شما این امکان را می‌دهد که حداکثر مرتبه‌ای از Gravatar که کاربر می‌تواند از آن استفاده کند را انتخاب کنید. اگر مرتبه‌ی آواتار کاربر از این مرتبه بیش‌تر باشد، از آواتار پیش‌فرض برای کاربر استفاده خواهد شد. مراتب Gravatar به شکل زیر هستند:
+
+<ul>
+<li><strong>G</strong>: مناسب برای استفاده در تمامی وب‌سایت‌ها و اقشار بازدید کننده</li>
+<li><strong>PG</strong>: ممکن است حاوی حرکات بی‌ادبانه، افراد با پوشش نامناسب، میزان کمی بدگویی و یا اندکی خشونت باشد</li>
+<li><strong>R</strong>: ممکن است حاوی مواردی مانند فحش‌های رکیک، خشونت شدید، برهنگی و یا استفاده‌ی شدید از مواد مخدر باشد</li>
+<li><strong>X</strong>: ممکن است حاوی تصاویر جنسی مبتذل و یا خشونت بسیار نگران کننده باشد</li>
+</ul>]]></description>
+			<disporder>12</disporder>
+			<optionscode><![CDATA[select
+g=G
+pg=PG
+r=R
+x=X]]></optionscode>
+			<settingvalue><![CDATA[g]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxavatardims">
+			<title>حداکثر ابعاد آواتار</title>
+			<description><![CDATA[بیش‌ترین ابعادی که یک آواتار می‌تواند داشته باشد. در قالب‌بندی طول<b>x</b>عرض. اگر خالی بگذارید، هیچ محدودیتی اعمال نمی‌شود.]]></description>
+			<disporder>13</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[100x100]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="avatarsize">
+			<title>حداکثر حجم آواتار</title>
+			<description><![CDATA[بیش‌ترین حجم (در واحد کیلوبایت) مجاز فایل آواتار جهت آپلود.]]></description>
+			<disporder>14</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[25]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="avatarresizing">
+			<title>نحوه‌ی تغییر اندازه‌ی آواتار</title>
+			<description><![CDATA[درصورتی که می‌خواهید به صورت خودکار تمامی آواتارهای بزرگ تغییر اندازه داده شوند و یا به خود کاربر این امکان را بدهید که آواتار خود را تغییر اندازه دهد و یا این‌که اندازه‌ی آواتارها به هیچ عنوان تغییر پیدا نکند، از این گزینه استفاده کنید.]]></description>
+			<disporder>15</disporder>
+			<optionscode><![CDATA[select
+auto=تغییر اندازه‌ی خودکار همه‌ی آواتارها
+user=خود کاربر تعیین کند که آواتار او تغییر اندازه داده شود یا خیر
+disabled=عدم استفاده از این قابلیت]]></optionscode>
+			<settingvalue><![CDATA[auto]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="avataruploadpath">
+			<title>مسیر آپلود آواتارها</title>
+			<description><![CDATA[مسیری که فایل‌های مربوط به آواتار کاربران درآن‌جا آپلود می‌شود. دسترسی این مسیر <b>باید 777 باشد</b> (قابل نوشتن باشد) در غیر این صورت، آواتارها آپلود نخواهند شد.]]></description>
+			<disporder>16</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[./uploads/avatars]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="customtitlemaxlength">
+			<title>حداکثر طول عنوان کاربری اختیاری</title>
+			<description><![CDATA[بیش‌ترین تعداد حروفی که کاربر می‌تواند برای عنوان کاربری اختیاری خود استفاده کند.]]></description>
+			<disporder>17</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[40]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowaway">
+			<title>استفاده از قابلیت حضور/غیبت در انجمن مجاز باشد؟</title>
+			<description><![CDATA[کاربران بتوانند وضعیت حضور خود در انجمن را به حالت 'غایب'  تغییر دهند و برای غیبت خود یک دلیل ارائه کنند و تاریخ بازگشت خود به انجمن را نیز تعیین کنند؟]]></description>
+			<disporder>18</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowbuddyonly">
+			<title>ارسال پیام تنها به دوستان امکان پذیر باشد؟</title>
+			<description><![CDATA[اگر این گزینه فعال باشد، کاربران فقط می‌توانند به افرادی که در فهرست دوستانشان هستند پیام خصوصی ارسال کنند.]]></description>
+			<disporder>19</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="posting" title="ارسال پست" description="این گزینه‌ها شما را قادر می‌سازند تا تنظیمات مختلفی که به ارسال پست در انجمن مربوط هستند را تعیین کنید." disporder="11" isdefault="1">
+		<setting name="minmessagelength">
+			<title>حداقل طول پیام</title>
+			<description><![CDATA[هر پست باید حداقل شامل چند حرف باشد تا در انجمن ارسال شود؟]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[5]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxmessagelength">
+			<title>حداکثر طول پیام</title>
+			<description><![CDATA[بیش‌ترین تعداد حروفی که کاربر می‌تواند در هر ارسال از آن‌ها استفاده کند. درصورتی که عدد 0 وارد شود، هیچ محدودیتی اعمال نخواهد شد.
+<br />این مقدار باید با نوع ستون پیام‌ها در جدول ارسال‌ها در بانک اطلاعاتی متناسب باشد و متناسب با آن انتخاب شود. در زیر، حداکثر طول مجاز برای انواع ستون‌ها آمده است.
+<ul>
+	<li>TEXT: 65535 (پیش‌فرض)</li>
+	<li>MEDIUMTEXT: 16777215</li>
+	<li>LONGTEXT: 4294967295</li>
+</ul>]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[65535]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="mycodemessagelength">
+			<title>MyCodeها در شمارش حداقل تعداد حروف مجاز برای ارسال‌ها تأثیرگذار باشند؟</title>
+			<description><![CDATA[آیا می‌خواهید تعداد حروف MyCodeهای استفاده شده در پیام نیز به عنوان بخشی از پیام هنگام بررسی حداقل تعداد حروف مجاز برای ارسال شمرده شوند؟]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="postfloodcheck">
+			<title>محدودیت زمانی بین ارسال‌ها</title>
+			<description><![CDATA[درصورتی که می‌خواهید بین ارسال‌های متوالی کاربر محدودیت زمانی اعمال شود به‌گونه‌ای که پس از ارسال هر پست برای ارسال پست بعدی باید یک بازه‌ی زمانی طی شود، از این گزینه استفاده کنید. گزینه‌ی بعدی این بازه‌ی زمانی را تعیین می‌کند.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="postfloodsecs">
+			<title>مدت محدودیت زمانی بین ارسال‌ها</title>
+			<description><![CDATA[مدت زمانی (به ثانیه) که کاربر باید صبر کند تا پس از ارسال یک پست، مطلب بعدی را ارسال کند، وارد کنید. برای این‌که این گزینه عمل کند، باید تنظیم قبلی فعال باشد.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[60]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="postmergemins">
+			<title>مدت زمان ادغام ارسال‌ها</title>
+			<description><![CDATA[اگر این گزینه فعال بماند، ارسال‌هایی که در کم‌تر از x دقیقه‌ی گذشته در یک موضوع(تاپیک) و توسط یک کاربر ارسال شده‌اند، با یکدیگر ادغام شده و به یک ارسال تبدیل می‌شوند. این زمان را (به دقیقه) وارد کنید. برای غیرفعال‌سازی این قابلیت، عدد 0 را وارد کنید و یا خالی بگذارید.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[60]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="postmergefignore">
+			<title>انجمن‌های عاری از ادغام</title>
+			<description><![CDATA[انجمن‌هایی که عمل ادغام‌سازی خودکار ارسال‌ها در آن‌ها انجام نمی‌شود. اگر در نظر ندارید که هیچ انجمنی چنین قابلیتی داشته باشد، گزینه‌ی 'هیچ یک' را برگزینید.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[forumselect]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="postmergeuignore">
+			<title>گروه‌های کاربری عاری از ادغام</title>
+			<description><![CDATA[گروه‌های کاربری‌ای را که نمی‌خواهید عمل ادغام‌سازی خودکار بر روی آن‌ها اجرا شود را انتخاب کنید.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[groupselect]]></optionscode>
+			<settingvalue><![CDATA[4]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="postmergesep">
+			<title>جداکننده‌ی ارسال‌های ادغام شده</title>
+			<description><![CDATA[جداکننده‌ای که ارسال‌های ادغام شده را از یکدیگر تفکیک می‌کند. جدا کننده‌ی پیش‌فرض: '[hr]' (یک خط طویل)]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[[hr]]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="logip">
+			<title>نمایش آدرس IP در ارسال‌ها</title>
+			<description><![CDATA[آیا می‌خواهید آدرس IPای که کاربر با آن پست را ارسال کرده است در آن ارسال نمایش داده شود؟ در این صورت، این آدرس IP به چه کسانی نمایش داده شود؟]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[radio
+no=عدم نمایش IP
+hide=نمایش به مدیران و ناظم‌ها
+show=نمایش به همه‌ی کاربران]]></optionscode>
+			<settingvalue><![CDATA[hide]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showeditedby">
+			<title>نمایش پیام 'ویرایش شده توسط'؟</title>
+			<description><![CDATA[هنگامی یک کاربر معمولی ارسال را ویرایش می‌کند، آیا می‌خواهید پس از ویرایش، پیغام 'ویرایش شده توسط' در ارسال نمایش داده شود؟]]></description>
+			<disporder>11</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showeditedbyadmin">
+			<title>نمایش پیام 'ویرایش شده توسط' برای مدیران؟</title>	
+			<description><![CDATA[آیا می‌خواهید پس از ویرایش پست‌هایی که توسط مدیریت ارسال شده‌اند، پیام 'ویرایش شده توسط' در آن ارسال نمایش داده شود؟]]></description>
+			<disporder>12</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxpostimages">
+			<title>حداکثر تعداد تصاویر در هر ارسال</title>
+			<description><![CDATA[بیش‌ترین تعداد تصاویری که کاربر می‌تواند در هر ارسال خود قرار دهد را وارد کنید (این تصاویر شامل شکلک‌ها نیز می‌شوند). برای غیرفعال‌سازی این محدودیت، عدد 0 را وارد کنید.]]></description> <!-- M  O  C  .  N   A   R   I   B   B   Y   M  -->
+			<disporder>13</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[10]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxpostvideos">
+			<title>حداکثر تعداد ویدئوها در هر ارسال</title>
+			<description><![CDATA[بیش‌ترین تعداد ویدئوهایی که کاربر می‌تواند در هر ارسال‌ خود قرار دهد را وارد کنید. برای غیرفعال‌سازی این محدودیت، عدد 0 را وارد کنید.]]></description>
+			<disporder>14</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="subscribeexcerpt">
+			<title>تعداد حروف مورد استفاده در پیش‌نمایش ارسال‌ها برای کاربران مشترک</title>
+			<description><![CDATA[چه تعداد از حروف (ابتدایی) ارسال جهت پیش‌نمایش آن در ایمیل اطلاع رسانی از پاسخ  جدید به کاربران مشترک نمایش داده شود؟]]></description>
+			<disporder>15</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[100]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxquotedepth">
+			<title>حداکثر تعداد نقل قول‌های داخل یکدیگر</title>
+			<description><![CDATA[بیش‌ترین تعداد نقل قول‌هایی که می‌توانند به صورت تودرتو داخل یکدیگر قرار بگیرند. هنگامی که یک پاسخ دارای این تعداد نقل قول تودرتو باشد، تمامی این نقل قول‌ها به صورت خودکار حذف می‌شوند. توجه داشته باشید که این مقدار تنها هنگام استفاده از نقل قول‌ها هنگام ارسال پاسخ مورد استفاده قرار می‌گیرند - همچنین افزودن دستی نقل قول نیز مشمول این محدودیت می‌شود و همچنین در نظر داشته باشید که این محدودیت برای ارسال‌هایی که قبل از فعال‌سازی این گزینه ارسال شده‌اند اعمال نخواهد شد. برای غیرفعال‌سازی این محدودیت، عدد 0 را وارد کنید.]]></description>
+			<disporder>16</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[5]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="polloptionlimit">
+			<title>حداکثر طول گزینه‌ی نظرسنجی</title>
+			<description><![CDATA[بیش‌ترین تعداد حروفی که می‌تواند برای یک گزینه‌ی نظرسنجی مورد استفاده قرار بگیرد. (برای غیرفعال‌سازی این محدودیت عدد 0 را وارد کنید).]]></description>
+			<disporder>17</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[250]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxpolloptions">
+			<title>حداکثر تعداد گزینه‌های نظرسنجی</title>
+			<description><![CDATA[بیش‌ترین تعداد گزینه‌ای که کاربر می‌تواند برای نظرسنچی خود قرار دهد.]]></description>
+			<disporder>18</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[10]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="polltimelimit">
+			<title>محدودیت زمانی ایجاد نظرسنجی</title>
+			<description><![CDATA[مدت زمانی (به ساعت) که کاربران عادی باید صبر کنند تا بتوانند به موضوع خود نظرسنجی اضافه کنند (درصورتی که دسترسی ایجاد نظرسنجی را داشته باشند). برای این‌که محدودیتی اعمال نشود، عدد 0 (صفر) را وارد کنید.]]></description>
+			<disporder>19</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[12]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="threadreview">
+			<title>نمایش ارسال‌های اخیر؟</title>
+			<description><![CDATA[نمایش ارسال‌های اخیر موضوع هنگام ارسال پاسخ جدید؟]]></description>
+			<disporder>20</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="alloweditreason">
+			<title>استفاده از قابلیت دلیل ویرایش؟</title>
+			<description><![CDATA[آیا می‌خواهید به کاربران این امکان را بدهید که درصورت تمایل دلیل ویرایش ارسال‌هایشان را ذکر کنند؟]]></description>
+			<disporder>21</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="soft_delete">
+			<title>استفاده از قابلیت حذف موقت ارسال‌ها؟</title>
+			<description><![CDATA[اگر این قابلیت مورد استفاده قرار بگیرد، امکان بازیابی ارسال‌های کاربران پس از حذف آن ارسال‌ها را فراهم می‌سازد. در غیر این صورت، ارسال‌ها برای همیشه حذف خواهند شد.]]></description>
+			<disporder>22</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="attachments" title="فایل‌های پیوست" description="در این بخش می‌توانید گزینه‌های مختلفی را در ارتباط با سیستم فایل‌های پیوست تنظیم کنید." disporder="12" isdefault="1">
+		<setting name="enableattachments">
+			<title>بخش پیوست فایل فعال باشد؟</title>
+			<description><![CDATA[درصورتی که می‌خواهید قابلیت پیوست فایل در انجمن را غیرفعال کنید، گزینه‌ی خیر را انتخاب کنید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxattachments">
+			<title>حداکثر تعداد فایل قابل پیوست در هر ارسال</title>
+			<description><![CDATA[بیش‌ترین تعداد فایل پیوستی که یک کاربر می‌تواند در هر ارسال خود آپلود کند.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[5]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="attachthumbnails">
+			<title>نحوه‌ی نمایش تصاویر پیوست شده</title>
+			<description><![CDATA[تصاویر پیوست شده به چه شکل در ارسال‌ها نمایش داده شوند؟]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[radio
+yes=به صورت بندانگشتی (تصویر کوچک)
+no=نمایش تصویر با اندازه‌ی واقعی خود
+download=نمایش به صورت لینک دانلود]]></optionscode>
+			<settingvalue><![CDATA[yes]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="attachthumbh">
+			<title>حداکثر ارتفاع تصویر بندانگشتی</title>
+			<description><![CDATA[اندازه‌ی ارتفاع تصاویر بندانگشتی را وارد کنید.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[96]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="attachthumbw">
+			<title>حداکثر عرض تصویر بندانگشتی</title>
+			<description><![CDATA[اندازه‌ی عرض تصاویر بندانگشتی را وارد کنید.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[96]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="memberlist" title="فهرست اعضا" description="این بخش شما را قادر می‌سازد که تنظیمات مربوط به بخش‌های مختلف فهرست اعضا (memberlist.php) را مدیریت کنید. تنظیماتی مانند تعداد اعضایی که در هر صفحه از فهرست نمایش داده می‌شوند و یا تنظیمات مربوط به فعال/غیرفعال‌سازی برخی از قابلیت‌ها." disporder="13" isdefault="1">
+		<setting name="enablememberlist">
+			<title>بخش فهرست اعضا فعال باشد؟</title>
+			<description><![CDATA[اگر می‌خواهید فهرست اعضا را در انجمن خود غیرفعال کنید، گزینه‌ی خیر را برگزینید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="membersperpage">
+			<title>تعداد اعضا در هر صفحه</title>
+			<description><![CDATA[تعداد اعضایی که در هر صفحه از فهرست اعضا نمایش داده می‌شوند.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[20]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="default_memberlist_sortby">
+			<title>چیدمان پیش‌فرض</title>
+			<description><![CDATA[نحوه‌ی پیش‌فرض چیدمان اعضا را در صفحه‌ی فهرست اعضا انتخاب کنید.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[select
+regdate=تاریخ عضویت
+postnum=تعداد ارسال‌ها
+username=نام کاربری
+lastvisit=تاریخ آخرین بازدید]]></optionscode>
+			<settingvalue><![CDATA[regdate]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="default_memberlist_order">
+			<title>حالت پیش‌فرض چیدمان</title>
+			<description><![CDATA[حالت پیش‌فرض چیدمان اعضا را در صفحه‌ی فهرست اعضا انتخاب کنید.<br />صعودی: A-Z / از اول به آخر<br />نزولی: Z-A / از آخر به اول]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[select
+ascending=صعودی
+descending=نزولی]]></optionscode>
+			<settingvalue><![CDATA[ascending]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="memberlistmaxavatarsize">
+			<title>حداکثر اندازه‌ی آواتار در فهرست</title>
+			<description><![CDATA[بیش‌ترین اندازه‌ی آواتار کاربر در صفحه‌ی فهرست اعضا. اگر اندازه‌ی آواتار کاربر از این مقدار بیش‌تر باشد، آواتار به صورت خودکار تغییر اندازه داده می‌شود.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[70x70]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="reputation" title="اعتبار کاربران" description="بخش اعتبارات به کاربران این امکان را می‌دهد که به سایر کاربران امتیاز دهند و درباره‌ی آن کاربر اظهار نظر کنند. این بخش دارای تنظیماتی برای تغییر و یا غیرفعال‌سازی تنظیمات مربوط به صفحه‌ی اعتبارات است (reputation.php)." disporder="14" isdefault="1">
+		<setting name="enablereputation">
+			<title>سیستم اعتبارات فعال باشد؟</title>
+			<description><![CDATA[درصورتی که می‌خواهید سیستم اعتبارات انجمن را غیرفعال کنید، گزینه‌ی خیر را انتخاب کنید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="posrep">
+			<title>اهدای اعتبار مثبت مجاز باشد؟</title>
+			<description><![CDATA[کاربران بتوانند به یکدیگر اعتبار مثبت اهدا کنند؟]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="negrep">
+			<title>اهدای اعتبار منفی مجاز باشد؟</title>
+			<description><![CDATA[کاربران بتوانند به یکدیگر اعتبار منفی اهدا کنند؟]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="neurep">
+			<title>اهدای اعتبار خنثی مجاز باشد؟</title>
+			<description><![CDATA[کاربران بتوانند به یکدیگر اعتبار خنثی اهدا کنند؟]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="multirep">
+			<title>اهدای چندین اعتبار به یک کاربر امکان پذیر باشد؟</title>
+			<description><![CDATA[آیا کاربران بتوانند چندین مرتبه به یکدیگر اعتبار اهدا کنند؟<br />توجه: این گزینه در مورد اهدای اعتبار در "ارسال" صدق نمی‌کند.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="postrep">
+			<title>اهدای اعتبار از طریق ارسال‌ها امکان پذیر باشد؟</title>
+			<description><![CDATA[قابلیت اهدای اعتبار از طریق ارسال‌ها فعال باشد؟ (این اعتبار به خاطر ارسال به کاربر اهدا می‌شود و به آن ارسال متصل می‌شود)]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="repsperpage">
+			<title>تعداد اعتبارات در هر صفحه</title>
+			<description><![CDATA[در این‌جا می‌توانید تعداد اعتبارهایی که در هر صفحه از صفحه‌ی اعتبارات نمایش داده می‌شوند را تعیین کنید.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[15]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxreplength">
+			<title>حداکثر طول نظرات</title>
+			<description><![CDATA[بیش‌ترین تعداد حروفی که کاربر می‌تواند در بخش نظر خود درباره‌ی اهدای اعتبار وارد کند.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[300]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="minreplength">
+			<title>حداقل طول نظرات</title>
+			<description><![CDATA[کم‌ترین تعداد حروفی که کاربر باید در بخش نظر خود درباره‌ی اهدای اعتبار وارد کند.]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[10]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="warning" title="سیستم اخطاردهی به کاربران" description="سیستم اخطاردهی مدیران را قادر می‌سازد که درصورت نقض قوانین انجمن توسط کاربر، به او اخطار دهند. در این بخش می‌توانید تنظیمات مربوط به سیستم اخطاردهی را مدیریت کنید (warnings.php)." disporder="15" isdefault="1">
+		<setting name="enablewarningsystem">
+			<title>سیستم اخطاردهی فعال باشد؟</title>
+			<description><![CDATA[برای غیرفعال‌سازی سیستم اخطاردهی به طور کامل، گزینه‌ی خیر را برگزینید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowcustomwarnings">
+			<title>استفاده از نوع شخصی اخطاردهی مجاز باشد؟</title>
+			<description><![CDATA[افرادی که دسترسی اخطاردهی به کاربران را دارند، آیا می‌توانند هنگام اخطاردهی به کاربران دلیل اخطاردهی و میزان اخطاردهی را خودشان به صورت دستی تعیین کنند؟]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="canviewownwarning">
+			<title>کاربران بتوانند اخطارهای دریافتی خود را مشاهده کنند؟</title>
+			<description><![CDATA[درصورتی که می‌خواهید کاربران قابلیت مشاهده‌ی اخطارهای دریافتی اخیر خود را در کنترل پنل شخصی‌شان داشته باشند و میزان اخطار خود را در صفحه‌ی پروفایل خود مشاهده کنند، گزینه‌ی بله را انتخاب کنید.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowanonwarningpms">
+			<title>ارسال پیام خصوصی ناشناخته برای اخطارها مجاز باشد؟</title>
+			<description><![CDATA[آیا مدیران بتوانند پیام‌های خصوصی‌ای که برای اطلاع‌رسانی از دریافت اخطار به کاربران ارسال می‌کنند را به صورت ناشناخته ارسال کنند؟ (فرستنده‌ی این پیام برای کاربر قابل شناسایی نیست.)]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxwarningpoints">
+			<title>حداکثر میزان اخطار</title>
+			<description><![CDATA[بیش‌ترین میزان اخطاری که پیش از رسیدن سطح اخطاری کاربر به 100% می‌تواند به او داده شود.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[10]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="privatemessaging" title="سیستم پیام خصوصی" description="در این بخش می‌توانید تنظیمات مربوط به سیستم پیام خصوصی MyBB را مدیریت کنید." disporder="16" isdefault="1">
+		<setting name="enablepms">
+			<title>سیستم پیام خصوصی فعال باشد؟</title>
+			<description><![CDATA[اگر می‌خواهید سیستم پیام خصوصی را در انجمن خود غیرفعال کنید، گزینه‌ی خیر را برگزینید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="pmquickreply">
+			<title>نمایش جعبه‌ی ارسال پاسخ سریع؟</title>
+			<description><![CDATA[آیا می‌خواهید در پایین هر پیام خصوصی یک جعبه برای ارسال پاسخ به آن پیام نمایش داده شود؟]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="pmsallowhtml">
+			<title>استفاده از کدهای HTML مجاز باشد؟</title>
+			<description><![CDATA[اگر گزینه‌ی بله را انتخاب کنید، امکان استفاده از کدهای HTML در پیام‌های خصوصی فراهم می‌شود.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="pmsallowmycode">
+			<title>استفاده از کدهای MyCode مجاز باشد؟</title>
+			<description><![CDATA[اگر گزینه‌ی بله را انتخاب کنید، امکان استفاده از کدهای MyCode در پیام‌های خصوصی فراهم می‌شود.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="pmsallowsmilies">
+			<title>استفاده از شکلک‌ها مجاز باشد؟</title>
+			<description><![CDATA[اگر گزینه‌ی بله را انتخاب کنید، امکان استفاده از شکلک‌ها در پیام‌های خصوصی فراهم می‌شود.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="pmsallowimgcode">
+			<title>استفاده از کد [img] مجاز باشد؟</title>
+			<description><![CDATA[اگر گزینه‌ی بله را انتخاب کنید، امکان استفاده از کد [img](مربوط به قرار دادن تصاویر) در پیام‌های خصوصی فراهم می‌شود.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="pmsallowvideocode">
+			<title>استفاده از کد [video] مجاز باشد؟</title>
+			<description><![CDATA[اگر گزینه‌ی بله را انتخاب کنید، امکان استفاده از کد [video](مربوط به قرار دادن ویدئو) در پیام‌های خصوصی فراهم می‌شود.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="pmfloodsecs">
+			<title>محدودیت زمانی بین ارسال پیام‌های خصوصی</title>
+			<description><![CDATA[مدت زمانی (به ثانیه) که کاربر باید منتظر بماند تا بتواند پس از ارسال یک پیام، پیام خصوصی بعدی را ارسال کند. برای غیرفعال‌سازی این محدودیت، عدد 0 را وارد کنید.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[60]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="showpmip">
+			<title>نمایش آدرس IP در پیام خصوصی</title>
+			<description><![CDATA[آیا می‌خواهید آدرس IPای که کاربر با آن پیام خصوصی را ارسال کرده است در آن پیام نمایش داده شود؟ در این صورت، این آدرس IP به چه کسانی نمایش داده شود؟]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[radio
+no=عدم نمایش IP
+hide=نمایش به مدیران و ناظم‌ها
+show=نمایش به همه‌ی کاربران]]></optionscode>
+			<settingvalue><![CDATA[hide]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxpmquotedepth">
+			<title>حداکثر تعداد نقل قول‌های داخل یکدیگر در پیام خصوصی</title>
+			<description><![CDATA[بیش‌ترین تعداد نقل قول‌هایی که می‌توانند به صورت تودرتو داخل یکدیگر قرار بگیرند. هنگامی که یک پیام خصوصی دارای این تعداد نقل قول تودرتو باشد، تمامی این نقل قول‌ها به صورت خودکار حذف می‌شوند. توجه داشته باشید که این مقدار تنها هنگام استفاده از نقل قول‌ها هنگام ارسال پیام خصوصی مورد استفاده قرار می‌گیرند - همچنین افزودن دستی نقل قول نیز مشمول این محدودیت می‌شود و همچنین در نظر داشته باشید که این محدودیت برای پیام‌هایی که قبل از فعال‌سازی این گزینه ارسال شده‌اند اعمال نخواهد شد. برای غیرفعال‌سازی این محدودیت، عدد 0 را وارد کنید.]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[5]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="calendar" title="سالنامه" description="سالنامه‌ی انجمن امکان فهرست کردن رویدادهای عمومی و شخصی و تولد کاربران را فراهم می‌سازد. در این بخش شما می‌توانید تنظیمات مربوط به صفحه‌ی سالنامه (calendar.php) را مدیریت کنید." disporder="17" isdefault="1">
+		<setting name="enablecalendar">
+			<title>سالنامه فعال باشد؟</title>
+			<description><![CDATA[اگر می‌خواهید بخش سالنامه‌ی انجمن را غیرفعال کنید، گزینه‌ی خیر را انتخاب کنید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="whosonline" title="افراد آنلاین" description="تنظیمات مربوط به صفحه‌ی افراد آنلاین (online.php) در این بخش قابل دسترس هستند." disporder="18" isdefault="1">
+		<setting name="wolcutoffmins">
+			<title>زمان بُرِش (دقیقه)</title>
+			<description><![CDATA[تعداد دقایقی که پس از عدم فعالیت، کاربر به عنوان کاربر آفلاین نشانه‌گذاری می‌شود. مقدار پیشنهادی: 15]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[15]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="refreshwol">
+			<title>بازه‌ی زمانی تازه‌سازی صفحه‌ی افراد آنلاین</title>
+			<description><![CDATA[تعداد دقایقی که پس از گذشت آن، صفحه‌ی افراد آنلاین به صورت خودکار مجدداً بارگذاری خواهد شد. وارد کردن عدد 0 موجب غیرفعال‌سازی این گزینه می‌شود.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="wolorder">
+			<title>چیدمان افراد آنلاین</title>
+			<description><![CDATA[فهرست افراد آنلاین برپایه‌ی نام کاربری چینش شود و یا زمان آخرین فعالیت کاربران؟ توجه: این گزینه تنها در صفحه‌ی سردر و صفحه‌ی اصلی اعمال می‌شود.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[select
+username=چیدمان برپایه‌ی نام کاربری (صعودی)
+activity=چیدمان برپایه‌ی زمان آخرین فعالیت (نزولی)]]></optionscode>
+			<settingvalue><![CDATA[username]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="userpruning" title="هرس کردن کاربران" description="هرس کردن کاربران به شما این امکان را می‌دهد که کاربرانی را که دارای شرایط خاصی هستند، حذف کنید. در این‌جا می‌توانید این شرایط خاص را تعیین کنید." disporder="19" isdefault="1">
+		<setting name="enablepruning">
+			<title>سیستم هرس کردن کاربران فعال باشد؟</title>
+			<description><![CDATA[اگر می‌خواهید کاربرانی که دارای شرایط زیر (تنظیمات بعدی) هستند را حذف کنید، گزینه‌ی بله را انتخاب کنید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="enableprunebyposts">
+			<title>هرس کردن کاربران از طریق تعداد ارسال‌ها؟</title>
+			<description><![CDATA[درصورتی که می‌خواهید کاربرانی که تعداد خاصی ارسال دارند را حذف کنید، این گزینه را فعال کنید.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="prunepostcount">
+			<title>تعداد ارسال‌ها برای هرس کردن</title>
+			<description><![CDATA[کاربرانی که تعداد ارسال‌هایشان کم‌تر از این مقدار باشد، حذف خواهند شد.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		<setting name="prunepostcountall">
+			<title>شمارش تمامی ارسال‌ها؟</title>
+			<description><![CDATA[اگر گزینه‌ی بله انتخاب شود، ارسال‌هایی که در انجمن‌هایی که ارسال‌ها در آن‌ها شمارش نمی‌شوند قرار دارند نیز هنگام هرس کردن درنظر گرفته می‌شوند.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>0</isdefault>
+		</setting>
+		</setting>
+		<setting name="dayspruneregistered">
+			<title>مدت زمان عضویت (به روز) جهت هرس کردن از طریق تعداد ارسال‌ها</title>
+			<description><![CDATA[درصورتی که می‌خواهید کاربران را با توجه به تعداد ارسال‌ها هرس کنید، با استفاده از این گزینه می‌توانید تعیین کنید که حداقل چند روز از تاریخ عضویت آن‌ها گذشته باشد تا مشمول حذف شدن قرار گیرند.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[90]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+<!-- T r a n s l a t i o n  B y  M y B B I r a n . c o m -->
+		<setting name="pruneunactived">
+			<title>هرس کردن کاربران غیرفعال؟</title>
+			<description><![CDATA[اگر می‌خواهید کاربرانی که حساب کاربری‌شان را فعال نکرده‌اند حذف شوند، این گزینه را فعال کنید.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="dayspruneunactivated">
+			<title>مدت زمان عضویت (به روز) جهت هرس کردن کاربران غیرفعال</title>
+			<description><![CDATA[درصورتی که می‌خواهید کاربرانی که حساب کاربری‌شان را فعال نکرده‌اند هرس کنید، با استفاده از این گزینه می‌توانید تعیین کنید که حداقل چند روز از تاریخ عضویت آن‌ها گذشته باشد تا مشمول حذف شدن قرار گیرند.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[90]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="prunethreads">
+			<title>هرس کردن موضوع‌ها/ارسال‌های کاربر؟</title>
+			<description><![CDATA[آیا تمامی موضوع‌ها/ارسال‌های ایجاد شده توسط کاربرانی که قرار است هرس شوند، حذف شود؟]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="portal" title="تنظیمات سردر" description="صفحه‌ی سردر، اطلاعات مختلف فراوانی را درباره‌ی انجمن شما، شامل آخرین ارسال‌ها، افراد آنلاین، آمار انجمن، اطلاعیه‌ها و ... ارائه می‌کند. در این بخش شما می‌توانید تنظیمات مربوط به صفحه‌ی سردر (portal.php) را مدیریت کنید." disporder="20" isdefault="1">
+		<setting name="portal">
+			<title>سردر انجمن فعال باشد؟</title>
+			<description><![CDATA[اگر می‌خواهید بخش سردر انجمن را غیرفعال کنید، گزینه‌ی خیر را انتخاب کنید.]]></description>
+  			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="portal_announcementsfid">
+			<title>انجمن(های) مورد نظر جهت نمایش اطلاعیه‌های آن‌ها</title>
+			<description><![CDATA[انجمن(های)ـی را که می‌خواهید اطلاعیه‌های مربوط به آن‌ها در صفحه‌ی سردر نمایش داده شود، انتخاب کنید.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[forumselect]]></optionscode>
+			<settingvalue><![CDATA[-1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="portal_numannouncements">
+			<title>تعداد اطلاعیه‌های قابل نمایش</title>
+			<description><![CDATA[لطفاً تعداد اطلاعیه‌هایی را که می‌خواهید در هر صفحه‌ی سردر نمایش داده شوند، وارد کنید.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[10]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="portal_showwelcome">
+			<title>نمایش جعبه‌ی خوش‌آمدگویی؟</title>
+			<description><![CDATA[آیا می‌خواهید جعبه‌ی خوش‌آمدگویی به کاربران/بازدیدکنندگان نمایش داده شود؟]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="portal_showpms">
+			<title>نمایش تعداد پیام‌های خصوصی کاربر؟</title>
+			<description><![CDATA[آیا می‌خواهید تعداد پیام‌های خصوصی کاربر که در سیستم پیام‌های خصوصی ثبت شده است نمایش داده شود؟]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="portal_showstats">
+			<title>نمایش آمار انجمن؟</title>
+			<description><![CDATA[آیا می‌خواهید تعداد کل ارسال‌ها، موضوع‌ها، اعضا و آخرین عضو انجمن در صفحه‌ی سردر نمایش داده شود؟]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="portal_showwol">
+			<title>نمایش افراد آنلاین؟</title>
+			<description><![CDATA[آیا می‌خواهید فهرست 'افراد آنلاین' به کاربرانی که درحال بازدید از صفحه‌ی سردر هستند نمایش داده شود؟]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="portal_showsearch">
+			<title>نمایش جعبه‌ی جستجو؟</title>
+			<description><![CDATA[آیا می‌خواهید جعبه‌ی جستجو در انجمن، که کاربران را قادر می‌سازد تا از طریق صفحه‌ی سردر به سرعت در انجمن جستجو کنند، در صفحه‌ی سردر نمایش داده شود؟]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="portal_showdiscussions">
+			<title>نمایش آخرین مباحث؟</title>
+			<description><![CDATA[آیا می‌خواهید آخرین مباحث انجمن در صفحه‌ی سردر نمایش داده شود؟]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="portal_showdiscussionsnum">
+			<title>تعداد مباحث قابل نمایش</title>
+			<description><![CDATA[لطفاً تعداد مباحثی اخیری را که می‌خواهید در صفحه‌ی سردر نمایش داده شوند، وارد کنید.]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[10]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="portal_excludediscussion">
+			<title>انجمن‌های مستثنی از نمایش آخرین مباحث</title>
+			<description><![CDATA[لطفاً انجمن‌هایی را که نمی‌خواهید مباحث موجود در آن‌ها در بخش آخرین مباحث صفحه‌ی سردر نمایش داده شوند، انتخاب کنید.]]></description>
+			<disporder>11</disporder>
+			<optionscode><![CDATA[forumselect]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>                                              
+	<settinggroup name="search" title="سیستم جستجو" description="تنظیمات مختلف این گروه، به شما امکان اعمال تغییراتی را در فرایند جستجوی MyBB در ارسال‌ها و موضوعات می‌دهد." disporder="21" isdefault="1">
+		<setting name="searchtype">
+			<title>نوع جستجو</title>
+			<description><![CDATA[لطفاً نوع جستجوی دل‌خواه خود را انتخاب کنید. شما می‌توانید بین گزینه‌ی "استاندارد" و یا "متن کامل" یکی را برگزینید (با توجه به بانک اطلاعاتی خود). گزینه‌ی "متن کامل" نسبت به نوع استاندارد جستجوی MyBB قدرتمندتر و سریع‌تر است.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[php
+<select name=\"upsetting[{$setting['name']}]\"><option value=\"standard\">".($lang->setting_searchtype_standard?$lang->setting_searchtype_standard:"استاندارد")."</option>".($db->supports_fulltext("threads") && $db->supports_fulltext_boolean("posts")?"<option value=\"fulltext\"".($setting['value']=="fulltext"?" selected=\"selected\"":"").">".($lang->setting_searchtype_fulltext?$lang->setting_searchtype_fulltext:"متن کامل")."</option>":"")."</select>]]></optionscode>
+			<settingvalue><![CDATA[standard]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="searchfloodtime">
+			<title>محدودیت زمانی بین جستجوها (ثانیه)</title>
+			<description><![CDATA[مدت زمانی که کاربر باید منتظر بماند تا بتواند پس از یک جستجو، جستجوی دیگری را انجام دهد، در واحد ثانیه وارد کنید. این گزینه از فشار آوردن کاربر به سرور از طریق جستجوهای متعدد و پیوسته جلوگیری می‌کند. برای غیرفعال‌سازی این قابلیت، عدد 0 را وارد کنید.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[30]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="minsearchword">
+			<title>حداقل طول واژه‌ی مورد جستجو</title>
+			<description><![CDATA[کم‌ترین تعداد حروفی را که یک واژه‌ی تنها در فرایند جستجو باید داشته باشد تا جستجو انجام گیرد، وارد کنید. برای غیرفعال‌سازی این محدودیت، عدد 0 را وارد کنید (و محدودیت قطعی حداقل 3 حرف برای جستجوی استاندارد و 4 حرف برای جستجو در حالت متن کامل از طریق MySQL را بپذیرید. درصورتی که از جستجوی متن کامل از طریق MySQL استفاده می‌کنید و این عدد را کم‌تر از مقدار تعیین شده در تنظیمات MySQL وارد کنید، MySQL درخواست جستجو را رد می‌کند.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="searchhardlimit">
+			<title>محدودیت حداکثر تعداد نتایج</title>
+			<description><![CDATA[حداکثر تعداد نتایجی که برای یک جستجو دریافت می‌شود را وارد کنید. برای غیرفعال‌سازی این محدودیت، عدد 0 را وارد کنید. در انجمن‌های بزرگ (دارای بیش‌از 1 میلیون ارسال) این عدد نباید بزرگ‌تر از 1000 باشد.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="helpsearch">
+			<title>استفاده از قابلیت جستجو در صفحه‌ی اسناد راهنما؟</title>
+			<description><![CDATA[اگر این گزینه فعال باشد، امکان جستجو در اسناد راهنما را فراهم می‌سازد.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup> 
+	<settinggroup name="clickablecode" title="شکلک‌های قابل کلیک و BB Code (کدهای مورد استفاده در نگارش متن)" description="این بخش به شما امکان تغییر نحوه‌ی نمایش شکلک‌های قابل کلیک و مدیریت تنظیمات MyCode را می‌دهد. (BB Code: کدهایی هستند که در انجمن‌ها، به‌جای کدهای HTML برای ظاهردهی به متن مطالب از آن‌ها استفاده می‌شود)." disporder="22" isdefault="1">
+		<setting name="bbcodeinserter">
+			<title>ویرایش‌گر قابل کلیک MyCode</title>
+ 			<description><![CDATA[برای این‌که ویرایش‌گری که دارای دکمه‌های قابل کلیک برای ظاهردهی به متن و یا اضافه کردن کدهای مورد نظر است، در صفحه‌های ارسال مباحث نمایش داده شود، گزینه‌ی روشن را انتخاب کنید. درصورت انتخاب گزینه‌ی خاموش، درج‌کننده‌ی شکلک‌ها نیز غیرفعال می‌شود.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="partialmode">
+			<title>ویرایش‌گر قابل کلیک MyCode در حالت جزیی باشد؟</title>
+			<description><![CDATA[اگر گزینه‌ی بله را انتخاب کنید، ویرایش‌گر در حالت جزیی قرار می‌گیرد و تگ‌هایی مانند [quote] و [img] بدون قالب بندی و به صورت متنی به ویرایش‌گر اضافه خواهند شد.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>0</isdefault>
+		</setting>
+		<setting name="smilieinserter">
+			<title>درج‌کننده‌ی شکلک‌های قابل کلیک</title>
+			<description><![CDATA[در صورتی که گزینه‌ی 'روشن' انتخاب شود، درج کننده‌ی شکلک‌های قابل کلیک در صفحه‌های ارسال مباحث نمایش داده می‌شوند.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[onoff]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="smilieinsertertot">
+			<title>تعداد شکلک‌های قابل نمایش</title>
+			<description><![CDATA[تعداد شکلک‌هایی را که می‌خواهید در جعبه‌ی درج‌کننده‌ی شکلک‌های قابل کلیک نمایش داده شوند، وارد کنید.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[20]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="smilieinsertercols">
+			<title>تعداد ستون‌های نمایش‌گر شکلک‌ها</title>
+			<description><![CDATA[تعداد ستون‌هایی را که می‌خواهید شکلک‌ها در آن‌ها قرار گیرند، وارد کنید.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[4]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowbasicmycode">
+			<title>استفاده از MyCodeهای اساسی مجاز باشد؟</title>
+			<description><![CDATA[اگر گزینه‌ی بله انتخاب شود، کاربران قادر خواهند بود که از MyCodeهای اساسی مانند ضخیم کننده (Bold)، مورب کننده‌ (Italic)، اضافه کننده‌ی خط زیرین (Underline)، اضافه کننده‌ی خط باطل کننده (Strike) و اضافه کننده‌ی خط جداساز (HR) در متن پیام‌های خود استفاده کنند.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowcolormycode">
+			<title>استفاده از MyCodeهای رنگ‌دهی به متن مجاز باشد؟</title>
+			<description><![CDATA[انتخاب گزینه‌ی بلی، کاربران را قادر می‌سازد تا از MyCodeهای رنگ‌دهی به متن استفاده کنند.]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowsizemycode">
+			<title>استفاده از MyCodeهای اندازه‌ی متن مجاز باشد؟</title>
+			<description><![CDATA[انتخاب گزینه‌ی بلی، کاربران را قادر می‌سازد تا از MyCodeهای تعیین اندازه‌ی متن استفاده کنند.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowfontmycode">
+			<title>استفاده از MyCode انتخاب قلم متن مجاز باشد؟</title>
+			<description><![CDATA[انتخاب گزینه‌ی بلی، کاربران را قادر می‌سازد تا از MyCode تعیین قلم متن استفاده کنند.]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowlinkmycode">
+			<title>استفاده از MyCode افزودن لینک به متن مجاز باشد؟</title>
+			<description><![CDATA[انتخاب گزینه‌ی بلی، کاربران را قادر می‌سازد تا از MyCode افزودن لینک به متن استفاده کنند.]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowemailmycode">
+			<title>استفاده از MyCode افزودن ایمیل مجاز باشد؟</title>
+			<description><![CDATA[انتخاب گزینه‌ی بلی، کاربران را قادر می‌سازد تا از MyCode افزودن ایمیل به متن استفاده کنند.]]></description>
+			<disporder>11</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowalignmycode">
+			<title>استفاده از MyCodeهای تعیین جهت متن مجاز باشد؟</title>
+			<description><![CDATA[انتخاب گزینه‌ی بلی، کاربران را قادر می‌سازد تا از MyCodeهای جهت‌دهی به متن استفاده کنند.]]></description>
+			<disporder>12</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowlistmycode">
+			<title>استفاده از MyCodeهای افزودن فهرست به متن مجاز باشد؟</title>
+			<description><![CDATA[انتخاب گزینه‌ی بلی، کاربران را قادر می‌سازد تا از MyCodeهای افزودن فهرست به متن استفاده کنند.]]></description>
+			<disporder>13</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowcodemycode">
+			<title>استفاده از MyCide افزودن کد به متن مجاز باشد؟</title>
+			<description><![CDATA[انتخاب گزینه‌ی بلی، کاربران را قادر می‌سازد تا از MyCodeهای افزودن کد و کد php به متن استفاده کنند.]]></description>
+			<disporder>14</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowsymbolmycode">
+			<title>استفاده از MyCodeهای نماد مجاز باشد؟</title>
+			<description><![CDATA[انتخاب گزینه‌ی بلی، کاربران را قادر می‌سازد تا از MyCodeهای اضافه کننده‌ی علائم (tm)، (c) و (r) به متن استفاده کنند.]]></description>
+			<disporder>15</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="allowmemycode">
+			<title>استفاده از MyCodeهای Me مجاز باشد؟</title>
+			<description><![CDATA[انتخاب گزینه‌ی بلی، کاربران را قادر می‌سازد تا از MyCodeهای /me and /slap استفاده کنند.]]></description>
+			<disporder>16</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="guestimages">
+			<title>نمایش تصاویر موجود در ارسال‌ها و امضاها به کاربران مهمان؟</title>
+			<description><![CDATA[اگر گزینه‌ی بله انتخاب شود، تصاویر موجود در ارسال‌ها و امضای کاربران به کاربر مهمان نمایش داده خواهد شد در غیر این صورت، تنها لینک تصویر به کاربر مهمان نمایش داده خواهد شد.]]></description>
+			<disporder>17</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="guestvideos">
+			<title>نمایش ویدئوهای موجود در ارسال‌ها و امضاها به کاربران مهمان؟</title>
+			<description><![CDATA[انتخاب گزینه‌ی بلی، کاربران را قادر می‌سازد تا از MyCodeهای /me and /slap استفاده کنند.]]></description>
+			<disporder>18</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="cpprefs" title="تنظیمات کنترل پنل مدیرکل (سراسری)" description="در این بخش شما می‌توانید تنظیمات سراسری کنترل پنل مدیرکل را تعیین کنید." disporder="23" isdefault="1">
+		<setting name="cplanguage">
+			<title>زبان کنترل پنل</title>
+			<description><![CDATA[زبان کنترل پنل مدیرکل.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[adminlanguage]]></optionscode>
+			<settingvalue><![CDATA[persian]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="cpstyle">
+			<title>پوسته‌ی کنترل پنل مدیرکل</title>
+			<description><![CDATA[پوسته‌ی پیش‌فرض مورد استفاده در کنترل پنل مدیرکل. پوسته‌های مربوط به این بخش، در پوشه‌ی مربوط به پوسته‌ها (styles) قرار دارند. نام پوشه‌ای که در داخل این پوشه قرار می‌گیرد، به عنوان نام پوسته شناخته می‌شود و فایل style.css داخل پوشه‌ی مربوط به پوسته، فایل قالب‌بندی پوسته است.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[cpstyle]]></optionscode>
+			<settingvalue><![CDATA[default_rtl_mybbiran_1800]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="maxloginattempts">
+			<title>دفعات مجاز تلاش برای ورود</title>
+			<description><![CDATA[بیش‌ترین دفعات مجاز تلاش برای ورود به کنترل پنل مدیرکل که پس از آن، بخش ورود قفل خواهد شد. برای غیرفعال‌سازی این گزینه، عدد 0 را وارد کنید.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[5]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="loginattemptstimeout">
+			<title>مدت زمان انتظار برای تلاش مجدد برای ورود</title>
+			<description><![CDATA[اگر شخصی پس از دفعات مجاز تلاش برای ورود نتوانست وارد کنترل پنل مدیرکل شود، چه مدت باید منتظر بماند تا مجدداً بتواند برای ورود تلاش کند (این مدت زمان را در واحد ثانیه وارد کنید).]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[15]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="mailsettings" title="تنظیمات ارسال ایمیل" description="در این بخش می‌توانید تنظیمات مربوط به سیستم ایمیل MyBB مانند ارسال ایمیل از طریق PHP mail و یا ارسال از طریق یک سرور SMTP خارجی را مدیریت کنید." disporder="24" isdefault="1">
+		<setting name="mail_handler">
+			<title>سیستم مدیریت ایمیل</title>
+			<description><![CDATA[MyBB ایمیل‌ها را از چه طریقی ارسال کند؟]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[select
+mail=PHP mail
+smtp=SMTP mail]]></optionscode>
+			<settingvalue><![CDATA[mail]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="smtp_host">
+			<title>نام میزبان SMTP - SMTP hostname</title>
+			<description><![CDATA[نام میزبان سرور SMTP که ایمیل‌ها از طریق آن ارسال می‌شوند.<br /> تنها درصورتی که از سیستم مدیریت ایمیل SMTP استفاده می‌کنید نیاز است.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="smtp_port">
+			<title>پورت SMTP - SMTP Port</title>
+			<description><![CDATA[شماره‌ی پورت سرور SMTP که ایمیل‌ها از طریق آن ارسال می‌شوند.<br /> تنها درصورتی که از سیستم مدیریت ایمیل SMTP استفاده می‌کنید نیاز است.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="smtp_user">
+			<title>نام کاربری SMTP - SMTP username</title>
+			<description><![CDATA[نام کاربری مورد استفاده برای ورود به سرور SMTP.<br />تنها درصورتی که از سیستم مدیریت ایمیل SMTP استفاده می‌کنید و همچنین سرور SMTP نیاز به ورود دارد، نیاز است.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="smtp_pass">
+			<title>گذرواژه‌ی SMTP - SMTP password</title>
+			<description><![CDATA[گذرواژه‌ی مورد استفاده برای ورود به سرور SMTP.<br />تنها درصورتی که از سیستم مدیریت ایمیل SMTP استفاده می‌کنید و همچنین سرور SMTP نیاز به ورود دارد، نیاز است.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[passwordbox]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="secure_smtp">
+			<title>نحوه‌ی رمزگذاری SMTP - SMTP Encryption Mode</title>
+			<description><![CDATA[نحوه‌ی رمزگذاری مورد نیاز جهت ارتباط با سرور SMTP را انتخاب کنید.<br />تنها درصورتی که از سیستم مدیریت ایمیل SMTP استفاده می‌کنید نیاز است.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[select
+0=بدون رمزگذاری
+1=رمزگذاری SSL
+2=رمزگذاری TLS]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="mail_parameters">
+			<title>پارامترهای اضافی برای تابع PHP mail()</title>
+			<description><![CDATA[این تنظیم به شما اجازه می‌دهد که برای تابع PHP mail() پارامترهای اضافی تعیین کنید. تنها درصورتی که گزینه‌ی 'PHP mail' به عنوان سیستم مدیریت ایمیل انتخاب شود مورد استفاده قرار می‌گیرد. <a href="http://php.net/function.mail" target="_blank">اطلاعات بیش‌تر</a>]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="mail_logging">
+			<title>نحوه‌ی ثبت ایمیل‌ها</title>
+			<description><![CDATA[با استفاده از این گزینه می‌توانید چگونگی ثبت ایمیل‌هایی که از طریق گزینه‌ی 'ارسال موضوع به یک دوست' ارسال می‌شوند را تعیین کنید. در برخی کشورها، ثبت کردن تمامی محتواها غیرقانونی است.]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[select
+0=غیرفعال‌سازی ثبت ایمیل‌ها
+1=ثبت ایمیل بدون محتوای داخل آن
+2=قبت همه چیز]]></optionscode>
+			<settingvalue><![CDATA[2]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="mail_message_id">
+			<title>اضافه کردن شناسه‌ی پیام به سربرگ ایمیل‌ها؟</title>
+			<description><![CDATA[غیرفعال‌سازی این گزینه در برخی از هاست‌های اشتراکی مشکل تشخیص داده شدن ایمیل به عنوان اسپم را برطرف می‌کند.]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="contactsettings" title="تنظیمات تماس" description="با استفاده از گزینه‌های این بخش می‌توانید تنظیمات مربوط به صفحه‌ی تماس (contact.php) را تعیین کنید." disporder="25" isdefault="1">
+		<setting name="contact">
+			<title>صفحه‌ی تماس فعال باشد؟</title>
+			<description><![CDATA[به منظور دسترسی کاربران به صفحه‌ی تماس، گزینه‌ی بله را انتخاب کنید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="contact_guests">
+			<title>دسترسی کاربر مهمان به صفحه‌ی تماس غیرفعال باشد؟</title>
+			<description><![CDATA[درصورتی که گزینه‌ی بله را انتخاب کنید، کاربر مهمان نمی‌تواند به صفحه‌ی تماس دسترسی پیدا کند.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="contact_badwords">
+			<title>استفاده از سیستم پالایش واژه‌ها در صفحه‌ی تماس؟</title>
+			<description><![CDATA[اگر گزینه‌ی بله را انتخاب کنید، فیلدهای عنوان پیام و پیام کاربر، پیش از ارسال توسط سیستم پالایش واژه‌ها بررسی می‌شوند.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="contact_maxsubjectlength">
+			<title>حداکثر طول عنوان پیام در صفحه‌ی تماس</title>
+			<description><![CDATA[بیش‌ترین تعداد حروف (بایت) مجاز به استفاده در عنوان پیام. درصورتی که نمی‌خواهید محدودیتی اعمال شود، عدد 0 را وارد کنید.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[85]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="contact_minmessagelength">
+			<title>حداقل طول پیام در صفحه‌ی تماس</title>
+			<description><![CDATA[کم‌ترین تعداد حروف مورد نیاز برای ارسال پیام. درصورتی که نمی‌خواهید محدودیتی اعمال شود، عدد 0 را وارد کنید.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[5]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="contact_maxmessagelength">
+			<title>حداکثر طول پیام در صفحه‌ی تماس</title>
+			<description><![CDATA[بیش‌ترین تعداد حروف (بایت) مجاز به استفاده در پیام. درصورتی که نمی‌خواهید محدودیتی اعمال شود، عدد 0 را وارد کنید.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[65535]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>ا
+	<settinggroup name="purgespammer" title="پاک‌سازی اسپمر" description="این بخش به شما اجازه می‌دهد که تنظیمات مربوط به قابلیت پاک‌سازی اسپمر را تغییر دهید." disporder="26" isdefault="1">
+		<setting name="purgespammergroups">
+			<title>گروه‌های کاربری مجاز</title>
+			<description><![CDATA[گروه‌های کاربری مجاز به استفاده از سیستم پاک‌سازی اسپمر.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[groupselect]]></optionscode>
+			<settingvalue><![CDATA[3,4,6]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="purgespammerpostlimit">
+			<title>کم‌ترین تعداد ارسال جهت عدم استفاده از این ابزار بر روی کاربر</title>
+			<description><![CDATA[این گزینه عمل کردن این ابزار را بر روی کاربرانی که بیش از تعداد مشخصی ارسال دارند، متوقف می‌کند تا از استفاده از آن بر روی کاربران فعال انجمن جلوگیری کند. شما می‌توانید این تعداد ارسال را در فیلد زیر وارد کنید. اگر عدد 0 را وارد کنید، این قابلیت غیرفعال می‌شود هرچند که غیرفعال‌سازی آن پیشنهاد نمی‌شود.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[10]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="purgespammerbandelete">
+			<title>محروم‌سازی یا حذف اسپمر؟</title>
+			<description><![CDATA[آیا می‌خواهید با استفاده از این ابزار کاربران اسپمر را محروم کنید و یا حساب کاربری آن‌ها را حذف کنید؟]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[radio
+ban=محروم‌سازی کاربر (برای همیشه)
+delete=حذف کاربر]]></optionscode>
+			<settingvalue><![CDATA[ban]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="purgespammerbangroup">
+			<title>گروه کاربری محروم</title>
+			<description><![CDATA[گروه کاربری‌ای که می‌خواهید کاربران محروم به آن منتقل شوند را انتخاب کنید. گزینه‌ی پیش‌فرض، همان گروه کاربری اصلی محرومیت است.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[groupselectsingle]]></optionscode>
+			<settingvalue><![CDATA[7]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="purgespammerbanreason">
+			<title>دلیل محروم‌سازی</title>
+			<description><![CDATA[دلیلی که به عنوان علت محرومیت به کاربر اسپمر نمایش داده می‌شود.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[اسپم]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="purgespammerapikey">
+			<title>کلید API در Stop Forum Spam</title>
+			<description><![CDATA[برای این‌که بتوانید اطلاعات کاربر اسپمر را در بانک اطلاعاتی Stop Forum Spam ثبت کنید، به یک کلید API نیاز دارید. شما می‌توانید از <a href="http://stopforumspam.com/signup" target="_blank">اینجا</a> یک کلید را دریافت کنید. هنگامی که کلید خود را دریافت نمودید، آن را در جعبه‌ی زیر وارد کنید.]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+	</settinggroup>
+	<settinggroup name="stopforumspam" title="تنظیمات Stop Forum Spam (بانک اطلاعاتی اسپمرها)" description="در این بخش می‌توانید تنظیماتی که مربوط در یکپارچه‌سازی انجمن و وب‌سایت StopForumSpam.com مورد استفاده قرار می‌گیرند را تغییر دهید." disporder="27" isdefault="1">
+		<setting name="enablestopforumspam_on_register">
+			<title>اطلاعات کاربر هنگام عضویت در بانک اطلاعاتی StopForumSpam.com بررسی شود؟</title>
+			<description>
+				<![CDATA[آیا می‌خواهید اطلاعات کاربر هنگام عضویت در بانک اطلاعاتی StopForumSpam.com بررسی شود و درصورتی که اطلاعات او به عنوان یک اسپمر ثبت شده باشد از ثبت نام او در انجمن جلوگیری شود؟]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="stopforumspam_on_contact">
+			<title>اطلاعات کاربر مهمان هنگام ارسال پیام از طریق صفحه‌ی تماس در بانک اطلاعاتی StopForumSpam.com بررسی شود؟</title>
+			<description>
+				<![CDATA[آیا می‌خواهید آدرس ایمیل و آدرس IP کاربر مهمان هنگام استفاده از صفحه‌ی تماس در بانک اطلاعاتی StopForumSpam.com بررسی شود و درصورتی که اطلاعات او به عنوان یک اسپمر ثبت شده باشد از ارسال پیام توسط او جلوگیری شود؟]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="stopforumspam_on_newreply">
+			<title>اطلاعات کاربر مهمان هنگام ارسال پاسخ در بانک اطلاعاتی StopForumSpam.com بررسی شود؟</title>
+			<description>
+				<![CDATA[آیا می‌خواهید آدرس ایمیل و آدرس IP کاربر مهمان هنگام ارسال پاسخ به موضوعات در بانک اطلاعاتی StopForumSpam.com بررسی شود و درصورتی که اطلاعات او به عنوان یک اسپمر ثبت شده باشد از ارسال پاسخ توسط او جلوگیری شود؟]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="stopforumspam_on_newthread">
+			<title>اطلاعات کاربر مهمان هنگام ایجاد موضوع در بانک اطلاعاتی StopForumSpam.com بررسی شود؟</title>
+			<description>
+				<![CDATA[آیا می‌خواهید آدرس ایمیل و آدرس IP کاربر مهمان هنگام ایجاد موضوع در بانک اطلاعاتی StopForumSpam.com بررسی شود و درصورتی که اطلاعات او به عنوان یک اسپمر ثبت شده باشد از ایجاد موضوع توسط او جلوگیری شود؟]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="stopforumspam_min_weighting_before_spam">
+			<title>حداقل میزان اطمینان از اسپمر بودن کاربر در StopForumSpam</title>
+			<description>
+				<![CDATA[کم‌ترین میزان اطمینان از اسپمر بودن کاربر در بانک اطلاعاتی StopForumSpam چه مقدار باشد تا کاربر به عنوان اسپمر شناخته شود؟. این مقدار باید عددی بین 0 و 100 باشد.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[text]]></optionscode>
+			<settingvalue><![CDATA[50.00]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="stopforumspam_check_usernames">
+			<title>بررسی نام‌های کاربری؟</title>
+			<description>
+				<![CDATA[آیا نام کاربری کاربران در بانک اطلاعاتی StopForumSpam بررسی شود؟]]></description>
+			<disporder>6</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="stopforumspam_check_emails">
+			<title>بررسی آدرس ایمیل؟</title>
+			<description>
+				<![CDATA[آیا آدرس ایمیل کاربران در بانک اطلاعاتی StopForumSpam بررسی شود؟]]></description>
+			<disporder>7</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="stopforumspam_check_ips">
+			<title>بررسی آدرس IP?</title>
+			<description>
+				<![CDATA[آیا آدرس IP کاربران در بانک اطلاعاتی StopForumSpam بررسی شود؟]]></description>
+			<disporder>8</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="stopforumspam_block_on_error">
+			<title>جلوگیری از دسترسی کاربر به انجمن درصورت بروز خطا در StopForumSpam؟</title>
+			<description>
+				<![CDATA[درصورتی‌ که هنگام دریافت اطلاعات از StopForumSpam خطایی رخ دهد، آیا می‌خواهید از فعالیت کاربری که اطلاعات او جهت بررسی ارسال شده است، جلوگیری شود؟]]></description>
+			<disporder>9</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="stopforumspam_log_blocks">
+			<title>مسدودسازی‌هایی که توسط StopForumSpam انجام می‌شود ثبت شوند؟</title>
+			<description>
+				<![CDATA[آیا می‌خواهید وقایع مربوط به مسدودسازی دسترسی کاربران توسط StopForumSpam در انجمن ثبت شوند؟]]></description>
+			<disporder>10</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+	<settinggroup name="contactdetails" title="اطلاعات تماس" description="در این بخش می‌توانید تنظیمات مربوط به فیلد اطلاعات تماس کاربر را تغییر دهید." disporder="28" isdefault="1">
+		<setting name="allowicqfield">
+			<title>گروه‌های کاربری مجاز به استفاده از شناسه‌ی ICQ</title>
+			<description><![CDATA[گروه‌های کاربری‌ای که می‌توانند از فیلد شناسه‌ی ICQ در اطلاعات تماس مربوط به خود استفاده کنند را انتخاب کنید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[groupselect]]></optionscode>
+			<settingvalue><![CDATA[-1]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="allowaimfield">
+			<title>گروه‌های کاربری مجاز به استفاده از شناسه‌ی AIM</title>
+			<description><![CDATA[گروه‌های کاربری‌ای که می‌توانند از فیلد شناسه‌ی AIM در اطلاعات تماس مربوط به خود استفاده کنند را انتخاب کنید.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[groupselect]]></optionscode>
+			<settingvalue><![CDATA[-1]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="allowyahoofield">
+			<title>گروه‌های کاربری مجاز به استفاده از شناسه‌ی Yahoo!</title>
+			<description><![CDATA[گروه‌های کاربری‌ای که می‌توانند از فیلد شناسه‌ی Yahoo! در اطلاعات تماس مربوط به خود استفاده کنند را انتخاب کنید.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[groupselect]]></optionscode>
+			<settingvalue><![CDATA[-1]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="allowskypefield">
+			<title>گروه‌های کاربری مجاز به استفاده از شناسه‌ی Skype</title>
+			<description><![CDATA[گروه‌های کاربری‌ای که می‌توانند از فیلد شناسه‌ی Skype در اطلاعات تماس مربوط به خود استفاده کنند را انتخاب کنید.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[groupselect]]></optionscode>
+			<settingvalue><![CDATA[-1]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="allowgooglefield">
+			<title>گروه‌های کاربری مجاز به استفاده از شناسه‌ی Google Talk</title>
+			<description><![CDATA[گروه‌های کاربری‌ای که می‌توانند از فیلد شناسه‌ی Google Talk در اطلاعات تماس مربوط به خود استفاده کنند را انتخاب کنید.]]></description>
+			<disporder>5</disporder>
+			<optionscode><![CDATA[groupselect]]></optionscode>
+			<settingvalue><![CDATA[-1]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+	</settinggroup>
+	<settinggroup name="statspage" title="صفحه‌ی آمار" description="در این بخش می‌توانید تنظیمات مربوط به صفحه‌ی آمار را تغییر دهید." disporder="28" isdefault="1">
+		<setting name="statsenabled">
+			<title>صفحه‌ی آمار فعال باشد؟</title>
+			<description><![CDATA[درصورتی که نمی‌خواهید صفحه‌ی آمار انجمن توسط کاربران قابل مشاهده باشد، گزینه‌ی خیر را انتخاب کنید.]]></description>
+			<disporder>1</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="statscachetime">
+			<title>فاصله‌ی زمانی تازه‌سازی کَش مربوط به آمار</title>
+			<description><![CDATA[فاصله‌ی زمانی تازه‌سازی کَش مربوط به آمار را (به ساعت) وارد کنید. به عنوان مثال اگر عدد 24 را وارد کنید، کَش مربوط به صفحه‌ی آمار هر 24 ساعت تازه‌سازی خواهند شد. اگر عدد 0 را وارد کنید، این قابلیت غیرفعال می‌شود.]]></description>
+			<disporder>2</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[0]]></settingvalue>
+			<isdefault>1</isdefault>
+			<helpkey></helpkey>
+		</setting>
+		<setting name="statslimit">
+			<title>محدوده‌ی آمار</title>
+			<description><![CDATA[تعداد موضوعات پربازدید و دارای بیش‌ترین ارسال که در صفحه‌ی آمار نمایش داده می‌شوند را وارد کنید.]]></description>
+			<disporder>3</disporder>
+			<optionscode><![CDATA[numeric]]></optionscode>
+			<settingvalue><![CDATA[15]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+		<setting name="statstopreferrer">
+			<title>نمایش برترین معرف‌ها در صفحه‌ی آمار؟</title>
+			<description><![CDATA[آیا می‌خواهید برترین معرف‌ها در صفحه‌ی stats.php نمایش داده شوند؟ این گزینه‌ی یک درخواست اضافی از بانک اطلاعاتی را به همراه دارد.]]></description>
+			<disporder>4</disporder>
+			<optionscode><![CDATA[yesno]]></optionscode>
+			<settingvalue><![CDATA[1]]></settingvalue>
+			<isdefault>1</isdefault>
+		</setting>
+	</settinggroup>
+</settings>		
