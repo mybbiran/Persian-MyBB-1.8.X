@@ -1,6 +1,6 @@
 <?php
 /**
- * MyBB 1.8.8 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2014 MyBBIran Group, All Rights Reserved
  *
  */
@@ -16,9 +16,9 @@ $l['report_reason_profile'] = "گزارش پروفایل";
 $l['report_reason_reputation'] = "گزارش اعتبار";
 
 // Content reasons
+$l['report_reason_rules'] = "ناقض قوانین انجمن";
 $l['report_reason_bad'] = "محتوای نامناسب";
 $l['report_reason_spam'] = "محتوای اسپم";
-$l['report_reason_rules'] = "ناقض قوانین انجمن";
 $l['report_reason_wrong'] = "انجمن نامناسب";
 $l['report_reason_other'] = "سایر";
 

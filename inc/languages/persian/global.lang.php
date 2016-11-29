@@ -1,6 +1,6 @@
 <?php
 /**
- * MyBB 1.8.8 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2014 MyBBIran Group, All Rights Reserved
  *
  */
@@ -231,8 +231,8 @@ $l['postbit_group'] = "گروه: ";
 $l['postbit_joined'] = "تاریخ عضویت: ";
 $l['postbit_status'] = "وضعیت: ";
 $l['postbit_attachments'] = "فایل‌(های) پیوست شده";
-$l['postbit_attachment_size'] = "اندازه: ";
 $l['postbit_attachment_filename'] = "نام فایل:";
+$l['postbit_attachment_size'] = "اندازه: ";
 $l['postbit_attachment_downloads'] = "تعداد دفعات دریافت: ";
 $l['postbit_attachments_images'] = "تصویر (ها)";
 $l['postbit_attachments_thumbnails'] = "بندانگشتی (ها)";

@@ -1,0 +1,109 @@
+<?php
+/**
+ * MyBB 1.8 Persian Language Pack
+ * Copyright 2014 MyBBIran Group, All Rights Reserved
+ *
+ */
+
+$l['delete_poll'] = "حذف نظرسنجی";
+$l['close_thread'] = "بستن موضوع";
+$l['stick_thread'] = "مهم کردن موضوع";
+
+$l['author'] = "نویسنده";
+$l['message'] = "پیام";
+$l['threaded'] = "حالت موضوعی";
+$l['linear'] = "حالت خطی";
+$l['thread_modes'] = "حالت‌های نمایش موضوع";
+$l['next_oldest'] = "قدیمی‌تر";
+$l['next_newest'] = "جدیدتر";
+$l['view_printable'] = "مشاهده‌ی نسخه‌ی قابل چاپ";
+$l['send_thread'] = "ارسال این موضوع به یک دوست";
+$l['subscribe_thread'] = "مشترک شدن در این موضوع";
+$l['unsubscribe_thread'] = "پایان اشتراک در این موضوع";
+$l['add_poll_to_thread'] = "افزودن نظرسنجی به این موضوع";
+$l['moderation_options'] = "گزینه‌های مدیریت: ";
+$l['delayed_moderation'] = "مدیریت تاخیری";
+$l['thread_notes'] = "ویرایش/مشاهده‌ی یادداشت‌های موضوع";
+$l['open_close_thread'] = "باز / بستن موضوع";
+$l['approve_thread'] = "تأیید موضوع";
+$l['unapprove_thread'] = "رد تأیید موضوع";
+$l['soft_delete_thread'] = "حذف موقت موضوع";
+$l['restore_thread'] = "بازیابی موضوع";
+$l['delete_thread'] = "حذف دائمی موضوع";
+$l['delete_posts'] = "حذف ارسال‌های انتخاب شده";
+$l['move_thread'] = "انتقال / کپی کردن موضوع";
+$l['stick_unstick_thread'] = "مهم کردن / خارج کردن موضوع از حالت مهم";
+$l['split_thread'] = "جداسازی موضوع";
+$l['merge_threads'] = "ادغام موضوع‌ها";
+$l['remove_redirects'] = "حذف انتقال‌ها";
+$l['remove_subscriptions'] = "حذف تمامی اشتراک‌ها";
+$l['poll'] = "نظرسنجی: ";
+$l['show_results'] = "نمایش نتایج";
+$l['edit_poll'] = "ویرایش نظرسنجی";
+$l['public_note'] = "<b>توضیح: </b> این یک نظرسنجی عمومی‌است. کاربران می‌توانند گزینه‌ی انتخابی شما را مشاهده کنند.";
+$l['total'] = "در کل";
+$l['vote'] = "رأی!";
+$l['total_votes'] = "{1} رأی";
+$l['you_voted'] = "*شما به این گزینه رأی داده‌اید.";
+$l['poll_closed'] = "این نظرسنجی بسته شده است.";
+$l['poll_closes'] = "زمان بسته شدن نظرسنجی: {1}";
+$l['already_voted'] = "شما قبلاً در این نظرسنجی شرکت کرده‌اید.";
+$l['undo_vote'] = "حذف رأی";
+$l['quick_reply'] = "پاسخ سریع";
+$l['message_note'] = "پاسخ خود به این مطلب را در اینجا بنویسید.";
+$l['signature'] = "امضا";
+$l['email_notify'] = "اطلاع رسانی از طریق ایمیل";
+$l['disable_smilies'] = "غیرفعال‌سازی شکلک‌ها";
+$l['post_reply'] = "ارسال پاسخ";
+$l['post_reply_img'] = "ارسال پاسخ";
+$l['new_reply'] = "پاسخ جدید";
+$l['search_button'] = 'جستجو';
+$l['post_thread'] = "ایجاد موضوع";
+$l['preview_post'] = "پیش نمایش ارسال";
+$l['rating_average'] = "{1} رأی - میانگین امتیازات:  {2}";
+$l['rate_thread'] = "امتیاز دادن به این موضوع: ";
+$l['thread_rating'] = "امتیاز موضوع: ";
+$l['similar_threads'] = "موضوعات مرتبط با این موضوع...";
+$l['thread'] = "موضوع";
+$l['replies'] = "پاسخ";
+$l['views'] = "بازدید";
+$l['lastpost'] = "آخرین ارسال";
+$l['messages_in_thread'] = "پیام‌های داخل این موضوع";
+$l['users_browsing_thread'] = "کاربرانِ درحال بازدید از این موضوع: ";
+$l['users_browsing_thread_guests'] = "{1} مهمان";
+$l['users_browsing_thread_invis'] = "{1} کاربر پنهان";
+$l['users_browsing_thread_reading'] = "خواندن...";
+$l['inline_soft_delete_posts'] = "حذف موقت ارسال‌ها";
+$l['inline_restore_posts'] = "بازیابی ارسال‌ها";
+$l['inline_delete_posts'] = "حذف دائمی ارسال‌ها";
+$l['inline_merge_posts'] = "ادغام ارسال‌ها";
+$l['inline_split_posts'] = "جداسازی ارسال‌ها";
+$l['inline_move_posts'] = "انتقال ارسال‌ها";
+$l['inline_approve_posts'] = "تأیید ارسال‌ها";
+$l['inline_unapprove_posts'] = "رد تأیید ارسال‌ها";
+$l['inline_post_moderation'] = "مدیریت درون خطی ارسال: ";
+$l['inline_go'] = "برو";
+$l['clear'] = "بازنشاندن";
+$l['thread_closed'] = "موضوع بسته شده است";
+$l['no_subject'] = "بدون عنوان";
+$l['error_nonextnewest'] = "موضوعی که شما در حال بازدید از آن بودید جدیدترین موضوع است!";
+$l['error_nonextoldest'] = "موضوعی که شما در حال بازدید از آن بودید قدیمی‌ترین موضوع است!";
+$l['quickreply_multiquote_selected'] = "شما 1 یا چند ارسال را برای نقل قول انتخاب کرده‌اید.";
+$l['quickreply_multiquote_now'] = "نقل قول این ارسال‌ها";
+$l['or'] = "یا";
+$l['quickreply_multiquote_deselect'] = "عدم انتخاب آن‌ها";
+$l['search_thread'] = "جستجو در موضوع";
+$l['enter_keywords'] = "واژه‌های کلیدی را وارد کنید";
+$l['view_thread_notes'] = "یادداشت‌های موضوع";
+$l['view_all_notes'] = "مشاهده‌ی تمامی یادداشت‌ها";
+
+$l['save_changes'] = 'ذخیره‌ی تغییرات';
+$l['cancel_edit'] = 'لغو ویرایش';
+$l['quick_edit_update_error'] = 'خطایی در ویرایش پاسخ شما وجود دارد:';
+$l['quick_reply_post_error'] = 'خطایی در ارسال پاسخ شما وجود دارد:';
+$l['quick_delete_error'] = 'خطایی در حذف پاسخ شما وجود دارد:';
+$l['quick_delete_success'] = 'ارسال با موفقیت حذف شد.';
+$l['quick_delete_thread_success'] = 'موضوع با موفقیت حذف شد.';
+$l['quick_restore_error'] = 'خطایی در بازیابی پاسخ شما وجود دارد:';
+$l['quick_restore_success'] = 'ارسال با موفقیت بازیابی شد.';
+
