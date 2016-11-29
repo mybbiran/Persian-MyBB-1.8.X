@@ -16,7 +16,6 @@ $l['disallowed_email_addresses_desc'] = "در این بخش شما یک فهرس
 
 $l['banned_ip_addresses'] = "آدرس‌های IP محروم شده";
 $l['username'] = "نام کاربری";
-$l['search_user'] = "جستجوی کاربر";
 $l['date_disallowed'] = "تاریخ محروم سازی";
 $l['last_attempted_use'] = "آخرین تلاش برای دسترسی به انجمن";
 $l['email_address'] = "ایمیل";
@@ -30,9 +29,9 @@ $l['disallow_username'] = "غیر مجاز کردن نام کاربری";
 $l['add_disallowed_email_address'] = "افزودن یک ایمیل غیر مجاز";
 $l['email_address_desc'] = "توجه: جهت استفاده از wild card از ستاره (*) استفاده کنید.";
 $l['disallow_email_address'] = "ایمیل‌های غیر مجاز";
-$l['ban_ip_address'] = "محروم سازی IP";
-$l['ip_address_desc'] = "توجه:  جهت محروم سازی یک رده از آدرس‌های IP از ستاره (*) (نمونه:  *.127.0.0) و یا از نمادسازی CIDR استفاده کنید (نمونه: 127.0.0.0/8)";
 $l['ban_an_ip_address'] = "محروم سازی IP";
+$l['ip_address_desc'] = "توجه:  جهت محروم سازی یک رده از آدرس‌های IP از ستاره (*) (نمونه:  *.127.0.0) و یا از نمادسازی CIDR استفاده کنید (نمونه: 127.0.0.0/8)";
+$l['ban_ip_address'] = "محروم سازی IP";
 
 $l['error_missing_ban_input'] = "شما مقداری برای محرومیت وارد نکرده‌اید.";
 $l['error_invalid_filter'] = "پالایش مورد نظر وجود ندارد.";
