@@ -1,6 +1,6 @@
 <?php
 /**
- * MyBB 1.8.7 Persian Language Pack
+ * MyBB 1.8.8 Persian Language Pack
  * Copyright 2014 MyBBIran Group, All Rights Reserved
  *
  */
