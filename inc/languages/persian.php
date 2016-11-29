@@ -1,6 +1,6 @@
 <?php
 /**
- * MyBB 1.8.8 Persian Language Pack
+ * MyBB 1.8 Persian Language Pack
  * Copyright 2014 MyBBIran Group, All Rights Reserved
  *
  */
@@ -15,7 +15,7 @@ $langinfo['author'] = "مرجع پارسی مای بی بی / MyBBIran.com - Per
 $langinfo['website'] = "http://www.mybbiran.com/";
 
 // Compatible version of MyBB
-$langinfo['version'] = "5600";
+$langinfo['version'] = "5700";
 
 // Sets if the translation includes the Admin CP (1 = yes, 0 = no)
 $langinfo['admin'] = 1;
