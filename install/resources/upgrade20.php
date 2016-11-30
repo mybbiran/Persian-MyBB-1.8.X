@@ -48,4 +48,4 @@ function upgrade20_dbchanges()
 	$output->print_contents("<p>برای رفتن به مرحله‌ی بعدی عملیات به‌روز‌رسانی، روی \"بعدی\" کلیک کنید.</p>");
 	$output->print_footer("20_done");
 }
-?>
+

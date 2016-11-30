@@ -38,9 +38,10 @@ function upgrade26_dbchanges()
 	{
 		$db->modify_column("polls", "numvotes", "text NOT NULL");
 	}
-	if($db->field_exists('failedlogin', 'users'))
+	
+    if($db->field_exists('failedlogin', 'users'))
 	{
-		$db->write_query("ALTER TABLE ".TABLE_PREFIX."users DROP failedlogin;");
+		$db->drop_column("users", "failedlogin");
 	}
 	
 	// We don't need the posthash after the post is inserted into the database
@@ -52,4 +53,3 @@ function upgrade26_dbchanges()
 	$output->print_contents("<p>برای رفتن به مرحله‌ی بعدی عملیات به‌روز‌رسانی، روی \"بعدی\" کلیک کنید.</p>");
 	$output->print_footer("26_done");
 }
-?>

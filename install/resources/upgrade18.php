@@ -56,4 +56,3 @@ function upgrade18_updatecache()
 	$output->print_contents("<p>برای رفتن به مرحله‌ی بعدی عملیات به‌روز‌رسانی، روی \"بعدی\" کلیک کنید.</p>");
  	$output->print_footer("18_done");
 }
-?>

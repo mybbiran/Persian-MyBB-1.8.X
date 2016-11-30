@@ -69,7 +69,7 @@
 		</setting>
 		<setting name="contactemail">
 			<title>ایمیل تماس</title>
-			<description><![CDATA[The email address that messages sent via the contact form (contact.php) will be sent to. Leave blank to use the admin email address instead.]]></description>
+			<description><![CDATA[آدرس ایمیلی که پیام از طریق فرم تماس ارسال (contact.php) به ایمیل شما فرستاده می شود . اگر خالی بگذارید از آدرس ایمیل مدیری کل استفاده می شود]]></description>
 			<disporder>7</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[]]></settingvalue>
@@ -398,7 +398,7 @@ none=پنهان‌سازی خطاها و اخطارها
 		<setting name="minifycss">
 			<title>کوچک‌سازی قالب بندی‌ها؟</title>
 			<description><![CDATA[آیا می‌خواهید قالب بندی‌ها کوچک‌سازی شوند؟ انتخاب این گزینه موجب کاهش پهنای باند مورد استفاده و افزایش سرعت بارگذاری می‌شود.]]></description>
-			<disporder>15</disporder>
+			<disporder>16</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -407,7 +407,7 @@ none=پنهان‌سازی خطاها و اخطارها
 		<setting name="usecdn">
 			<title>استفاده از یک شبکه‌ی تحویل محتوا (CDN)؟</title>
 			<description><![CDATA[شما می‌توانید از یک CDN (شبکه‌ی تحویل محتوا) برای بارگذاری فایل‌های ثابت مانند قالب بندی‌ها، تصاویر و فایل‌های Javascript استفاده کنید. آیا می‌خواهید این قابلیت را فعال کنید؟]]></description>
-			<disporder>16</disporder>
+			<disporder>17</disporder>
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -416,7 +416,7 @@ none=پنهان‌سازی خطاها و اخطارها
 		<setting name="cdnurl">
 			<title>لینک مورد استفاده‌ی فایل‌های ثابت</title>
 			<description><![CDATA[اگر گزینه‌ی CDN فوق را فعال کرده‌اید، لطفاً لینک آن را برای دریافت اطلاعات ثابت از آن، وارد کنید. این لینک باید معتبر، و بدون خط مورب پایانی (Slash[/]) باشد.]]></description>
-			<disporder>17</disporder>
+			<disporder>18</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -425,7 +425,7 @@ none=پنهان‌سازی خطاها و اخطارها
 		<setting name="cdnpath">
 			<title>مسیر ذخیره‌ی فایل‌های ثابت</title>
 			<description><![CDATA[درصورتی که گزینه‌ی CDN فوق را فعال کرده‌اید، لطفاً به صورت اختیاری یک مسیر کامل برای نگه‌داری فایل‌های ثابت در آن، وارد کنید. این گزینه تنها برای CDNهای از نوع "Push" و یا زیر-دامنه‌ی محلی، مناسب است. این مسیر را بدون خط مورب پایانی (Slash[/]) وارد کنید.]]></description>
-			<disporder>18</disporder>
+			<disporder>19</disporder>
 			<optionscode><![CDATA[text]]></optionscode>
 			<settingvalue><![CDATA[]]></settingvalue>
 			<isdefault>1</isdefault>
@@ -945,6 +945,7 @@ disabled=این قابلیت غیرفعال باشد]]></optionscode>
 		<setting name="username_method">
 			<title>روش‌های مجاز ورود به انجمن</title>
 			<description><![CDATA[چه اطلاعاتی می‌تواند در فیلد نام کاربری برای ورود به انجمن مورد استفاده قرار بگیرد؟ تنها نام کاربری، ایمیل یا هر دو؟]]></description>
+<br />To allow email as a valid login method, no users are allowed to share email addresses.]]></description>
 			<disporder>18</disporder>
 			<optionscode><![CDATA[select
 0=تنها نام کاربری
@@ -1713,6 +1714,7 @@ activity=چیدمان برپایه‌ی زمان آخرین فعالیت (نزو
 			<optionscode><![CDATA[numeric]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>1</isdefault>
+		</setting>
 		<setting name="prunepostcountall">
 			<title>شمارش تمامی ارسال‌ها؟</title>
 			<description><![CDATA[اگر گزینه‌ی بله انتخاب شود، ارسال‌هایی که در انجمن‌هایی که ارسال‌ها در آن‌ها شمارش نمی‌شوند قرار دارند نیز هنگام هرس کردن درنظر گرفته می‌شوند.]]></description>
@@ -1720,7 +1722,6 @@ activity=چیدمان برپایه‌ی زمان آخرین فعالیت (نزو
 			<optionscode><![CDATA[yesno]]></optionscode>
 			<settingvalue><![CDATA[0]]></settingvalue>
 			<isdefault>0</isdefault>
-		</setting>
 		</setting>
 		<setting name="dayspruneregistered">
 			<title>مدت زمان عضویت (به روز) جهت هرس کردن از طریق تعداد ارسال‌ها</title>
@@ -1730,7 +1731,6 @@ activity=چیدمان برپایه‌ی زمان آخرین فعالیت (نزو
 			<settingvalue><![CDATA[90]]></settingvalue>
 			<isdefault>1</isdefault>
 		</setting>
-<!-- T r a n s l a t i o n  B y  M y B B I r a n . c o m -->
 		<setting name="pruneunactived">
 			<title>هرس کردن کاربران غیرفعال؟</title>
 			<description><![CDATA[اگر می‌خواهید کاربرانی که حساب کاربری‌شان را فعال نکرده‌اند حذف شوند، این گزینه را فعال کنید.]]></description>
