@@ -1204,6 +1204,8 @@ input.search_button {
 	font-size: 				1em;
 	text-align: 			left;
 	display: 				none;
+	-moz-border-radius:     5px;
+	-webkit-border-radius:  5px;
 	border-radius:			5px;
 }
 
@@ -1236,6 +1238,24 @@ input.search_button {
 	font-size:				.9em;
 	font-weight: 			bold;
 	text-align: 			center;
+}
+
+.jGrowl .jGrowl-notification.jgrowl_success {
+    background: lightgreen;
+    border: 1px solid lightgreen;
+    color: #333;
+}
+
+.jGrowl .jGrowl-notification.jgrowl_error {
+    background: red;
+    border: 1px solid red;
+    color: #333;
+}
+
+.jGrowl .jGrowl-notification.jgrowl_process, .jGrowl .jGrowl-closer {
+    background: yellow;
+    border: 1px solid yellow;
+    color: #333;
 }
 
 /** Hide jGrowl when printing **/
