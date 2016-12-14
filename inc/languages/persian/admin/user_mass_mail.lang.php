@@ -17,7 +17,7 @@ $l['edit_mass_mail'] = "ویرایش پیام انبوه";
 $l['edit_mass_mail_desc'] = "در این جا می‌توانید یک پیام انبوه و تنظیمات آن را ویرایش کنید.";
 $l['send_mass_mail'] = "ارسال پیام انبوه";
 
-$l['email_addr'] = "ایمیل انجمن";
+$l['email_addr'] = "ایمیل کاربر";
 $l['board_name'] = "نام انجمن";
 $l['board_url'] = "لینک انجمن";
 $l['personalize_message'] = "شخصی سازی این پیام";
