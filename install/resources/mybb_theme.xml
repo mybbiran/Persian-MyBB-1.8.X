@@ -840,6 +840,8 @@ blockquote cite span.highlight {
 	display: block;
 	font-family: Monaco, Consolas, Courier, monospace;
 	font-size: 13px;
+	direction: ltr;
+    text-align: left;
 }
 
 .smilie {
